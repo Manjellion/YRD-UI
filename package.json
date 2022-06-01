@@ -1,0 +1,19 @@
+{
+  "name": "teamoreo-yrd-dev",
+  "version": "1.0.0",
+  "description": "Development for the Your Royal Docks website for the Royal Docks area in Newham county",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manjellion/TeamOreo-YRD-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manjellion/TeamOreo-YRD-dev/issues"
+  },
+  "homepage": "https://github.com/Manjellion/TeamOreo-YRD-dev#readme"
+}
