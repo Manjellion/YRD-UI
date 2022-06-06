@@ -25,6 +25,7 @@ Here we have our initial navigation structure of the webpage as represented as a
 ![WhatsApp Image 2022-06-01 at 6 37 59 PM](https://user-images.githubusercontent.com/77361838/171745946-d0e04e01-28b9-4f8d-89ad-8c6ab736fa20.jpeg)
 
 ### Standard Homepage
-![YRD - Home Page Design](https://user-images.githubusercontent.com/77361838/171387394-e24a3dbc-5f30-4187-990d-36b7c3ca6524.jpeg)
+![WhatsApp Image 2022-06-05 at 5 16 13 PM](https://user-images.githubusercontent.com/77361838/172152490-529c651a-a067-4f91-b70a-65b51f995201.jpeg)
+
 
 
