@@ -4,7 +4,7 @@ Tools - (ReactJS, Bootstrap, NodeJS)
 Development for the Your Royal Docks web application for the Royal Docks area in Newham county.
 
 ## Our Goal
-Our goal is to create a standardise platform accessible to the anyone via the internet which will strongly increase the connection between the residents and business owners in the Royal Docks area and also a navigational/ informational tool for tourists visiting.
+Our goal is to create a standardise platform accessible to anyone via the internet which will strongly increase the connection between the residents and business owners in the Royal Docks area and also a navigational/ informational tool for tourists visiting.
 
 ## UML Diagram
 
