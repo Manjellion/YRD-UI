@@ -1,5 +1,5 @@
 import React from 'react'
-import SmallAdvert from '../../../Images/Banners/small-box.jpeg'
+import SmallAdvert from '../../../Images/Homepage/Banners/small-box.jpeg'
 
 function smallAdvert() {
   return (

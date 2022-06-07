@@ -1,8 +1,8 @@
 import React from 'react'
 
-import HowCardResidents from '../../Images/How-cards/residents-card.png'
-import HowCardBusiness from '../../Images/How-cards/bsn-card.png'
-import HowCardTourist from '../../Images/How-cards/tourist-card.png'
+import HowCardResidents from '../../Images/Homepage/How-cards/residents-card.png'
+import HowCardBusiness from '../../Images/Homepage/How-cards/bsn-card.png'
+import HowCardTourist from '../../Images/Homepage/How-cards/tourist-card.png'
 
 function How() {
   return (
@@ -10,8 +10,8 @@ function How() {
         <div className='How-Text-container' style={{
             textAlign: 'center'
         }}>
-            <h1>How It Works</h1>
-            <p>Get started in 3 simple steps</p>
+            <h1 style={{ fontSize: 85 }}>How It Works</h1>
+            <p style={{ fontSize: 30 }}>Get started in 3 simple steps</p>
         </div>
         <div style={{
             display: 'flex',

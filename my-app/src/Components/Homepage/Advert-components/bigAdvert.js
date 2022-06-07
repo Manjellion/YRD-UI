@@ -1,5 +1,5 @@
 import React from 'react'
-import BigAdvert from '../../../Images/Banners/big-box.jpeg'
+import BigAdvert from '../../../Images/Homepage/Banners/big-box.jpeg'
 
 function bigAdvert() {
   return (

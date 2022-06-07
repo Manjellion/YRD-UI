@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../../../Images/Banners/wide-box.jpeg'
+import Banner from '../../../Images/Homepage/Banners/wide-box.jpeg'
 
 function bannerAdvert() {
   return (

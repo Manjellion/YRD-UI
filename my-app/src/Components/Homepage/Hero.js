@@ -2,7 +2,7 @@ import React from 'react'
 
 import Button from 'react-bootstrap/Button'
 
-import backgroundImg from '../../Images/Hero-bg.jpeg'
+import backgroundImg from '../../Images/Homepage/Hero-bg.jpeg'
 import NavBar from '../../Components/Navbar'
 
 function Hero() {
@@ -29,8 +29,8 @@ function Hero() {
               <div className='Hero-Text' style={{
                 marginTop: 200
               }}>
-                <h2 style={{ fontSize: 40}}>DISCOVER</h2>
-                <h1 style={{ fontSize: 60}}>ROYAL DOCKS</h1>
+                <h2 style={{ fontSize: 80}}>DISCOVER</h2>
+                <h1 style={{ fontSize: 128}}>ROYAL DOCKS</h1>
                 <Button variant='danger'>Search</Button>
               </div>
             </div>

@@ -9,8 +9,8 @@ function Advert() {
         <div className='How-Text-container' style={{
             textAlign: 'center'
         }}>
-            <h1>Advertisements</h1>
-            <p>Check out the latest products</p>
+            <h1 style={{ fontSize: 85 }}>Advertisements</h1>
+            <p style={{ fontSize: 30 }}>Check out the latest products</p>
         </div>
         <div style={{
             display: 'flex',

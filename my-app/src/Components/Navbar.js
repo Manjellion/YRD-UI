@@ -1,7 +1,7 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import ProfilePic from '../Images/Profile.jpeg'
+import ProfilePic from '../Images/Homepage/Profile.jpeg'
 
 function Navigationbar() {
   return (
