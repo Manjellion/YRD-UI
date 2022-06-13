@@ -2,13 +2,13 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='footer-container' style={{ margin: 10 }}>
+    <div className='footer-container'>
         <div style={{ 
                 display: 'flex', 
                 justifyContent: 'space-around', 
                 alignItems: 'center', 
                 backgroundColor: 'lightgrey', 
-                maxWidth: 1500, 
+                maxWidth: '100%', 
                 marginLeft: 'auto', 
                 marginRight: 'auto',
                 padding: 20
@@ -18,7 +18,7 @@ function Footer() {
             </div>
             <div className='nav-List'>
                 <h3 style={{ textAlign: 'center' }}>All Pages</h3>
-                <ul style={{ listStyle: 'none', marginRight: 50}}>
+                <ul style={{ listStyle: 'none', marginRight: 50 }}>
                     <li>Home Page</li>
                     <li>Search</li>
                     <li>Events</li>

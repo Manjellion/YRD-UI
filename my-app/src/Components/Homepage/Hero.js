@@ -29,8 +29,8 @@ function Hero() {
               <div className='Hero-Text' style={{
                 marginTop: 200
               }}>
-                <h2 style={{ fontSize: 80}}>DISCOVER</h2>
-                <h1 style={{ fontSize: 128}}>ROYAL DOCKS</h1>
+                <h2 style={{ fontSize: '5vw'}}>DISCOVER</h2>
+                <h1 style={{ fontSize: '8vw'}}>ROYAL DOCKS</h1>
                 <Button variant='danger'>Search</Button>
               </div>
             </div>

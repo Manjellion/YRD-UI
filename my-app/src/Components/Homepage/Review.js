@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from 'react-bootstrap/Card'
 
 import review1 from '../../Images/Homepage/Review-box/review-1.png'
 import review2 from '../../Images/Homepage/Review-box/review-2.png'
@@ -10,28 +11,22 @@ function Review() {
         <div className='How-Text-container' style={{
             textAlign: 'center'
         }}>
-            <h1 style={{ fontSize: 85 }}>How It Works</h1>
-            <p style={{ fontSize: 30 }}>Get started in 3 simple steps</p>
+            <h1 style={{ fontSize: '8vw'}}>How It Works</h1>
+            <p style={{ fontSize: '1.5vw' }}>Get started in 3 simple steps</p>
         </div>
         <div style={{
             display: 'flex',
             justifyContent: 'space-evenly'
         }}>
-            <img src={review1} style={{
-                height: 400,
-                width: 400,
-                borderRadius: 10
-            }}/>
-            <img src={review2} style={{
-                height: 400,
-                width: 400,
-                borderRadius: 10
-            }}/>
-            <img src={review3} style={{
-                height: 400,
-                width: 400,
-                borderRadius: 10
-            }}/>
+            <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={review1} />
+            </Card>
+            <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={review2} />
+            </Card>
+            <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={review3} />
+            </Card>
         </div>
     </div>
   )
