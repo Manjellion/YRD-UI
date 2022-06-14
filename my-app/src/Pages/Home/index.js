@@ -1,14 +1,14 @@
 import React from 'react'
-import Hero from '../../Components/Homepage/Hero'
-import About from '../../Components/Homepage/About'
-import How from '../../Components/Homepage/How'
-import Advert from '../../Components/Homepage/Advert'
-import Review from '../../Components/Homepage/Review'
+
+import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
+
+import { Hero, About, How, Advert, Review } from '../../Components/Homepage/index'
 
 function Home() {
   return (
     <div>
+        <Navbar />
         <Hero /> {/* Hero section */}
         <About /> {/* About section */}      
         <How /> {/* How it works section */}

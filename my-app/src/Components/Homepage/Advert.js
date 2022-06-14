@@ -1,4 +1,7 @@
 import React from 'react'
+
+import ColoredLine from './ColoredLine'
+
 import SmallAdvert from './Advert-components/smallAdvert'
 import BigAdvert from './Advert-components/bigAdvert'
 import BannerAdvert from './Advert-components/bannerAdvert'
@@ -6,11 +9,13 @@ import BannerAdvert from './Advert-components/bannerAdvert'
 function Advert() {
   return (
     <div style={{ margin: 50 }}>
+        <ColoredLine color='black' />
         <div className='How-Text-container' style={{
-            textAlign: 'center'
+            textAlign: 'center',
+            marginTop: 50
         }}>
-            <h1 style={{ fontSize: 85 }}>Advertisements</h1>
-            <p style={{ fontSize: 30 }}>Check out the latest products</p>
+            <h1 style={{ fontSize: '6vw' }}>Advertisements</h1>
+            <p style={{ fontSize: '1.5vw' }}>Check out the latest products</p>
         </div>
         <div style={{
             display: 'flex',

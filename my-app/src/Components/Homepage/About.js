@@ -7,7 +7,7 @@ function About() {
     <div style={{ display: 'flex', justifyContent: 'space-evenly', margin: 100, alignItems: 'center'}}>
         <div>
             <div>
-                <h1 style={{ fontSize: "8vw" }}>About Us</h1>
+                <h1 style={{ fontSize: "6vw" }}>About Us</h1>
                 <p style={{ fontSize: "1.5vw" }}>Find out about who we are</p>
             </div>
             <div style={{

@@ -1,0 +1,5 @@
+export { default as Hero } from './Hero'
+export { default as About } from './About'
+export { default as How } from './How'
+export { default as Advert } from './Advert'
+export { default as Review } from './Review'

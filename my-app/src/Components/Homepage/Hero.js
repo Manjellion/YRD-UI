@@ -3,7 +3,6 @@ import React from 'react'
 import Button from 'react-bootstrap/Button'
 
 import backgroundImg from '../../Images/Homepage/Hero-bg.jpeg'
-import NavBar from '../../Components/Navbar'
 
 function Hero() {
   return (
@@ -24,10 +23,12 @@ function Hero() {
                 color: '#fff'
             }}>
               <div className='Navbar'>
-                <NavBar />
               </div>
               <div className='Hero-Text' style={{
-                marginTop: 200
+                position: 'relative',
+                justifyContent: 'center',
+                alignItems: 'center',
+                top: 300,
               }}>
                 <h2 style={{ fontSize: '5vw'}}>DISCOVER</h2>
                 <h1 style={{ fontSize: '8vw'}}>ROYAL DOCKS</h1>

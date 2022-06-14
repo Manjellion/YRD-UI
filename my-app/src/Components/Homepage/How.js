@@ -1,20 +1,25 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 
-import BusinessImg from '../../Images/Homepage/How-cards/business.jpg'
-import ResidentImg from '../../Images/Homepage/How-cards/resident.jpg'
-import TouristImg from '../../Images/Homepage/How-cards/tourist.jpg'
+import ColoredLine from './ColoredLine'
+
+import BusinessImg from '../../Images/Homepage/How-cards/business.jpeg'
+import ResidentImg from '../../Images/Homepage/How-cards/resident.jpeg'
+import TouristImg from '../../Images/Homepage/How-cards/tourist.jpeg'
 
 
 function How() {
   return (
-       <div style={{ textAlign: 'center', margin: 100 }}>
-            <div>
+       <div style={{ textAlign: 'center', margin: 50 }}>
+            <ColoredLine color="black" />
+            <div style={{
+                marginTop: 50
+            }}>
                 <h1 style={{ fontSize: '8vw' }}>How it works</h1>
                 <p style={{ fontSize: '1.5vw' }}>Get started in 3 simple steps</p>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-evenly'}}>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }}>
                     <Card.Img variant="top" src={ResidentImg} />
                     <Card.Body>
                         <Card.Title style={{ fontSize: '2vw' }}>Residents</Card.Title>
@@ -23,7 +28,7 @@ function How() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }}>
                     <Card.Img variant="top" src={BusinessImg} />
                     <Card.Body>
                         <Card.Title style={{ fontSize: '2vw' }}>Business Owners</Card.Title>
@@ -32,7 +37,7 @@ function How() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }}>
                     <Card.Img variant="top" src={TouristImg} />
                     <Card.Body>
                         <Card.Title style={{ fontSize: '2vw' }}>Tourists</Card.Title>
