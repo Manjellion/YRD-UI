@@ -3,9 +3,10 @@ import Card from 'react-bootstrap/Card'
 
 import ColoredLine from './ColoredLine'
 
-import BusinessImg from '../../Images/Homepage/How-cards/business.jpeg'
-import ResidentImg from '../../Images/Homepage/How-cards/resident.jpeg'
-import TouristImg from '../../Images/Homepage/How-cards/tourist.jpeg'
+import ResidentCard from '../../Images/Homepage/How-cards/Resident-card.png'
+import BusinessCard from '../../Images/Homepage/How-cards/Business-card.png'
+import TouristCard from '../../Images/Homepage/How-cards/Tourist-card.png'
+
 
 
 function How() {
@@ -20,31 +21,13 @@ function How() {
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-evenly'}}>
                 <Card style={{ width: '20rem' }}>
-                    <Card.Img variant="top" src={ResidentImg} />
-                    <Card.Body>
-                        <Card.Title style={{ fontSize: '2vw' }}>Residents</Card.Title>
-                        <Card.Text style={{ fontSize: '1vw' }}>
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati asperiores, doloremque facere soluta autem atque amet perspiciatis excepturi impedit illum reprehenderit possimus at, aliquid minima suscipit voluptatem accusamus. Corrupti?
-                        </Card.Text>
-                    </Card.Body>
+                    <Card.Img variant="top" src={ResidentCard} />
                 </Card>
                 <Card style={{ width: '20rem' }}>
-                    <Card.Img variant="top" src={BusinessImg} />
-                    <Card.Body>
-                        <Card.Title style={{ fontSize: '2vw' }}>Business Owners</Card.Title>
-                        <Card.Text style={{ fontSize: '1vw' }}>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio, magnam alias saepe molestiae error culpa labore, enim corporis tempora deleniti eos necessitatibus libero! Quos eligendi nam natus eum labore!
-                        </Card.Text>
-                    </Card.Body>
+                    <Card.Img variant="top" src={BusinessCard} />
                 </Card>
                 <Card style={{ width: '20rem' }}>
-                    <Card.Img variant="top" src={TouristImg} />
-                    <Card.Body>
-                        <Card.Title style={{ fontSize: '2vw' }}>Tourists</Card.Title>
-                        <Card.Text style={{ fontSize: '1vw' }}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore doloribus vero illo iusto! Saepe reiciendis veniam atque itaque eos accusamus, laudantium iusto harum adipisci, dolores vel, doloremque nobis facilis ipsum?
-                        </Card.Text>
-                    </Card.Body>
+                    <Card.Img variant="top" src={TouristCard} />
                 </Card>
             </div>
        </div>
