@@ -19,7 +19,7 @@ function Advert() {
         </div>
         <div style={{
             display: 'flex',
-            justifyContent: 'space-between'
+            justifyContent: 'space-around'
         }}>
         </div>
         <div className='Box-container'>

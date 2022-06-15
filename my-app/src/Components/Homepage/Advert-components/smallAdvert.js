@@ -1,4 +1,5 @@
 import React from 'react'
+import { Image } from 'react-bootstrap'
 import SmallAdvert from '../../../Images/Homepage/Banners/small-box.jpeg'
 
 function smallAdvert() {
@@ -7,27 +8,21 @@ function smallAdvert() {
         <div style={{
           display: 'flex'
         }}>
-          <img src={SmallAdvert} style={{
-            marginRight: 10,
-            marginBottom: 10,
+          <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
             height: 350,
             width: 350
           }}/>
-          <img src={SmallAdvert} style={{
-            marginBottom: 10,
+          <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
             height: 350,
             width: 350
           }}/>
         </div>
         <div>
-          <img src={SmallAdvert} style={{
-            marginRight: 10,
-            marginTop: 10,
+          <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
             height: 350,
             width: 350
           }}/>
-          <img src={SmallAdvert} style={{
-            marginTop: 10,
+          <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
             height: 350,
             width: 350
           }}/>

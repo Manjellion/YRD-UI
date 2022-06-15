@@ -8,7 +8,6 @@ import { Hero, About, How, Advert, Review } from '../../Components/Homepage/inde
 function Home() {
   return (
     <div>
-        <Navbar />
         <Hero /> {/* Hero section */}
         <About /> {/* About section */}      
         <How /> {/* How it works section */}

@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button'
 
 import backgroundImg from '../../Images/Homepage/Hero-bg.jpeg'
 
+import Navbar from '../Navbar'
+
 function Hero() {
   return (
     <div>
@@ -24,6 +26,7 @@ function Hero() {
             }}>
               <div className='Navbar'>
               </div>
+              <Navbar />
               <div className='Hero-Text' style={{
                 position: 'relative',
                 justifyContent: 'center',
