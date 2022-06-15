@@ -26,7 +26,7 @@ function Advert() {
             <div className='top-row' style={{ 
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'space-evenly'
+                justifyContent: 'space-around'
                 }}>
                 <SmallAdvert />
                 <BigAdvert />

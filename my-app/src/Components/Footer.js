@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button, Form } from 'react-bootstrap'
+import { GrMail } from 'react-icons/gr'
 
 function Footer() {
   return (
@@ -30,8 +32,18 @@ function Footer() {
                 <p style={{ wordWrap: 'break-word'}}>
                     Subscribe to our news letter to get your weekly dose of new updates, tips and special offers.   
                 </p>
-                <input type='text' />
-                <button>Subscribe</button>
+                <Form>
+                    <GrMail style={{
+                        position: 'absolute',
+                        justifyContent: 'end',
+                        marginTop: 10,
+                        marginLeft: 10,
+                        color: '#F6BE00'
+                    }}/>
+                    <Form.Control type="email" placeholder="     Enter your email address" />
+                    <br />
+                    <Button variant="primary">Subscribe</Button>
+                </Form>
             </div>
         </div>
     </div>

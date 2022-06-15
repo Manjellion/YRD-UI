@@ -9,7 +9,7 @@ import review3 from '../../Images/Homepage/Review-box/review-3.png'
 
 function Review() {
   return (
-    <div style={{ margin: 100 }}>
+    <div style={{ margin: 50 }}>
         <ColoredLine color='black' />
         <div className='How-Text-container' style={{
             textAlign: 'center',
