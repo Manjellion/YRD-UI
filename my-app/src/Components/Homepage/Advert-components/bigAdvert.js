@@ -7,8 +7,8 @@ function bigAdvert() {
   return (
     <div>
         <Image src={BigAdvert} fluid={true} thumbnail={true} style={{
-          height: 700,
-          width: 700
+          height: 600,
+          width: 600
         }}/> 
     </div>
   )

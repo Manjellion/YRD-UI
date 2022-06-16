@@ -8,12 +8,11 @@ function Footer() {
         <div style={{ 
                 display: 'flex', 
                 justifyContent: 'space-around', 
-                alignItems: 'center', 
                 backgroundColor: 'lightgrey', 
                 maxWidth: '100%', 
                 marginLeft: 'auto', 
                 marginRight: 'auto',
-                padding: 20
+                padding: 50
              }}>
             <div className='footer-Logo'>
                 <h1>YRD</h1>

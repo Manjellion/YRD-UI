@@ -9,22 +9,22 @@ function smallAdvert() {
           display: 'flex'
         }}>
           <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
-          height: 350,
-          width: 350
+          height: 300,
+          width: 300
         }}/>
           <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
-          height: 350,
-          width: 350
+          height: 300,
+          width: 300
         }}/>
         </div>
         <div>
         <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
-          height: 350,
-          width: 350
+          height: 300,
+          width: 300
         }}/>
         <Image src={SmallAdvert} fluid={true} thumbnail={true} style={{
-          height: 350,
-          width: 350
+          height: 300,
+          width: 300
         }}/>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import { motion } from 'framer-motion'
 
 import ColoredLine from './ColoredLine'
 
@@ -20,16 +21,23 @@ function Review() {
         </div>
         <div style={{
             display: 'flex',
-            justifyContent: 'space-evenly'
+            justifyContent: 'space-evenly',
+            margin: 50
         }}>
             <Card style={{ width: '20rem' }}>
+                <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
                     <Card.Img variant="top" src={review1} />
+                </motion.div>
             </Card>
             <Card style={{ width: '20rem' }}>
+                <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
                     <Card.Img variant="top" src={review2} />
+                </motion.div>
             </Card>
             <Card style={{ width: '20rem' }}>
+                <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
                     <Card.Img variant="top" src={review3} />
+                </motion.div>
             </Card>
         </div>
     </div>

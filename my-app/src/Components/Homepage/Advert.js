@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container, Col, Row,  } from 'react-bootstrap'
 
 import ColoredLine from './ColoredLine'
 
@@ -10,28 +11,16 @@ function Advert() {
   return (
     <div style={{ margin: 50 }}>
         <ColoredLine color='black' />
-        <div className='How-Text-container' style={{
-            textAlign: 'center',
-            marginTop: 50
-        }}>
-            <h1 style={{ fontSize: '6vw' }}>Advertisements</h1>
-            <p style={{ fontSize: '1.5vw' }}>Check out the latest products</p>
-        </div>
-        <div style={{
-            display: 'flex',
-            justifyContent: 'space-around'
-        }}>
-        </div>
-        <div className='Box-container'>
-            <div className='top-row' style={{ 
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-around'
-                }}>
-                <SmallAdvert />
-                <BigAdvert />
-            </div>
-            <BannerAdvert />
+        <div>
+            <Container>
+                <Row>
+                    <Col><SmallAdvert /></Col>
+                    <Col><BigAdvert /></Col>
+                </Row>
+                <Row>
+                    <Col><BannerAdvert /></Col>
+                </Row>
+            </Container>
         </div>
     </div>
   )

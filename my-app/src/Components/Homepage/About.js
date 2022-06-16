@@ -1,10 +1,54 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+
 import AboutImg from '../../Images/Homepage/About-us.jpeg'
 import Image from 'react-bootstrap/Image'
 
 function About() {
+
+    const { ref, inView } = useInView({
+        threshold: 0.2
+    }); 
+    // useAnimation is a hook that allows the state to use animation on a condition
+    const animation = useAnimation();
+    const childAnimtion = useAnimation();
+
+    // inside useEffect we place all the hooks together to animate the state on view
+    useEffect(() => {
+        if(inView){
+            animation.start({
+                x: 0,
+                opacity: 1,
+                transition: {
+                    type: 'spring',
+                    stiffness: 80
+                }
+            })
+            childAnimtion.start({
+                y: 0,
+                opacity: 1,
+                transition: {
+                    type: 'spring',
+                    stiffness: 80
+                }
+            })
+        }
+        if(!inView) {
+            animation.start({
+                x: 500,
+                opacity: 0.1
+            })
+            childAnimtion.start({
+                y: 200,
+                opacity: 0
+            })
+        }
+        console.log('use effect hook, inView = ', inView)
+    }, [inView]);
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-evenly', margin: 100, alignItems: 'center'}}>
+    <div style={{ display: 'flex', justifyContent: 'space-evenly', margin: 100, alignItems: 'center'}} ref={ref}>
         <div>
             <div>
                 <h1 style={{ fontSize: "6vw" }}>About Us</h1>
@@ -28,9 +72,9 @@ function About() {
                 </div>
             </div>
         </div>
-        <div>
+        <motion.div animate={animation}>
             <Image src={AboutImg} fluid={true} width={3000} height='auto' />
-        </div>
+        </motion.div>
     </div>
   )
 }
