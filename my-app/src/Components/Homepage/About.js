@@ -21,16 +21,15 @@ function About() {
                 x: 0,
                 opacity: 1,
                 transition: {
-                    type: 'spring',
-                    stiffness: 80
+                    duration: 1
                 }
             })
             childAnimtion.start({
                 y: 0,
                 opacity: 1,
                 transition: {
-                    type: 'spring',
-                    stiffness: 80
+                    duration: 1
+
                 }
             })
         }

@@ -2,7 +2,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import { motion } from 'framer-motion'
 
-import ColoredLine from './ColoredLine'
+import ColoredLine from './Components/ColoredLine'
 
 import review1 from '../../Images/Homepage/Review-box/review-1.png'
 import review2 from '../../Images/Homepage/Review-box/review-2.png'
