@@ -11,7 +11,10 @@ import AnimatedText from './Animation/AnimationText'
 function Hero() {
 
   const placeholderText = [
-    { type: "heading1", text: "Discover" },
+    { 
+      type: "heading1", 
+      text: "Discover" 
+    },
     {
       type: "heading2",
       text: "Royal Docks"
@@ -33,7 +36,7 @@ function Hero() {
           <Image src={backgroundImg} alt="Home" 
             style={{
                 width: '100%',
-                height: 800,
+                minHeight: '100%',
             }}
             />
             <div className='Hero-text-container' style={{

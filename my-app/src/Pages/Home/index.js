@@ -7,7 +7,7 @@ import { Hero, About, How, Advert, Review } from '../../Components/Homepage/inde
 
 function Home() {
   return (
-    <div>
+    <div style={{ overflow: 'hidden' }}>
         <Hero /> {/* Hero section */}
         <About /> {/* About section */}      
         <How /> {/* How it works section */}
