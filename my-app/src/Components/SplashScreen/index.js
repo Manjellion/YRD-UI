@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import CSS from './index.module.css'
 
 import ResidentImg from '../../Images/Homepage/How-cards/resident.jpeg'
@@ -23,7 +24,7 @@ function index() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim debitis autem dicta, dolores exercitationem perspiciatis totam hic magnam fuga quibusdam asperiores consequatur eaque veniam ea aliquam cumque accusantium pariatur sunt.
                     </Card.Text>
                 </Card.Body>
-                <Button variant='danger' href='residentPage' className={CSS.card_button}>Select</Button>
+                <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>
             </Card>
             <Card style={{ width: '20rem' }} className={CSS.card_component}>
                 <Card.Img variant="top" src={BusinessImg} />
@@ -33,7 +34,7 @@ function index() {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quaerat! Animi repellat vitae a. Ipsum quis natus, impedit, excepturi, doloribus consequatur deleniti possimus nisi consectetur inventore modi incidunt animi cupiditate?
                     </Card.Text>
                 </Card.Body>
-                <Button variant='danger' href='businessOwnerPage' className={CSS.card_button}>Select</Button>
+                <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>
             </Card>
             <Card style={{ width: '20rem' }} className={CSS.card_component}>
                 <Card.Img variant="top" src={TouristImg} />
@@ -43,7 +44,7 @@ function index() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem nobis autem cumque quo accusamus explicabo, impedit sint eos expedita. Magni error repellat reprehenderit, culpa dolorem earum alias consequuntur quod.
                     </Card.Text>
                 </Card.Body>
-                <Button variant='danger' href='touristPage' className={CSS.card_button}>Select</Button>
+                <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>
             </Card>
         </div>
     </div>
