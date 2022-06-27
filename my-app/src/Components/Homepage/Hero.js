@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button, Image } from 'react-bootstrap'
+import Image from 'react-bootstrap/Image'
 import { motion } from 'framer-motion'
 
 import backgroundImg from '../../Images/Homepage/Hero-bg.jpeg'
@@ -81,7 +81,6 @@ function Hero() {
                       return <AnimatedText {...item} key={index} />;
                     })}
                   </div>
-                  <Button variant='danger'>Search</Button>
                 </motion.div>
               </div>
             </div>
