@@ -1,5 +1,4 @@
-import Home from './Pages/Home'
-import Screen from './Pages/Screen'
+import { Home, Screen, Login } from './Pages/export-index'
 import './App.css'
 import {
   BrowserRouter,
@@ -14,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Screen />} />
           <Route path='/residentPage' element={<Home />} />
+          <Route path='/login' element={<Login /> } />
         </Routes>
       </BrowserRouter>
     </div>

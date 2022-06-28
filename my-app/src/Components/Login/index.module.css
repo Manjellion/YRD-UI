@@ -1,0 +1,61 @@
+.container {
+    margin: 1rem 02.5rem;
+}
+
+.header {
+    padding-bottom: 5rem;
+}
+
+.header h1 a {
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 3px black;
+    font-size: 2em;
+}
+
+.login_header h1 {
+    font-weight: 900;
+}
+
+.register_btn {
+    display: flexbox;
+}
+
+.register_btn .btn {
+    margin-bottom: 1rem;
+}
+
+.register_btn .btn button {
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+    border: none;
+    color: black;
+    font-size: 1.1em;
+    transition: .5s;
+}
+
+.register_btn .btn button:hover {
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.form_btn button {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(4,74,254,1) 0%, rgba(0,213,255,1) 35%, rgba(0,255,254,1) 100%);
+    border: none;
+    opacity: 0.75;
+    transition: .5s;
+}
+
+.form_btn button:hover {
+    transition: .5s;
+    opacity: 1;
+}
+
+footer {
+    padding-top: 5rem;
+    opacity: 0.5;
+}

@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.container .login_img{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .login_img img {
+    width: 65vw;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .container .login_img {
+        display: none;
+    }
+
+}
