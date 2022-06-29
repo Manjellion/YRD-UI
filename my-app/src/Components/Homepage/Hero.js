@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CSS from './CSS/index.module.css'
 import Image from 'react-bootstrap/Image'
 import { motion } from 'framer-motion'
 
@@ -32,21 +32,12 @@ function Hero() {
 
   return (
     <div>
-        <div>
-          <Image src={backgroundImg} alt="Home" 
-            style={{
-                width: '100%',
-                minHeight: '100%',
-            }}
-            />
-            <div className='Hero-text-container' style={{
-                position: 'absolute',
-                justifyContent: 'center',
-                textAlign: 'center',
-                top: 0,
-                width: '100%',
-                color: '#fff'
-            }}>
+      <nav className={CSS.navbar}>
+      <Navbar />
+      </nav>
+        <div className={CSS.hero_container}>
+          <Image className={CSS.hero_img} src={backgroundImg} alt="Home" />
+            <div className={CSS.Hero_text_container}>
               <div className='Navbar'>
               </div>
               <motion.div
@@ -63,24 +54,18 @@ function Hero() {
                     stiffness: 50,
                 }}
               >
-                <Navbar />
               </motion.div>
-              <div className='Hero-Text' style={{
-                position: 'relative',
-                justifyContent: 'center',
-                alignItems: 'center',
-                top: 200,
-              }}>
+              <div className={CSS.hero_text}>
                 <motion.div
                   initial="hidden"
                   animate="visible"
                   variants={container}
                 >
-                  <div>
+                  <h1>
                     {placeholderText.map((item, index) => {
                       return <AnimatedText {...item} key={index} />;
                     })}
-                  </div>
+                  </h1>
                 </motion.div>
               </div>
             </div>

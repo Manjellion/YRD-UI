@@ -1,4 +1,4 @@
-import { Home, Screen, Login } from './Pages/export-index'
+import { Home, Screen, Login, Register } from './Pages/export-index'
 import './App.css'
 import {
   BrowserRouter,
@@ -14,6 +14,7 @@ function App() {
           <Route path='/' element={<Screen />} />
           <Route path='/residentPage' element={<Home />} />
           <Route path='/login' element={<Login /> } />
+          <Route path='/register' element={<Register />} />
         </Routes>
       </BrowserRouter>
     </div>

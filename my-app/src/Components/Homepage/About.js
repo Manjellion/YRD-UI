@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import CSS from './CSS/index.module.css'
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -47,32 +48,24 @@ function About() {
     }, [inView]);
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-evenly', margin: 100, alignItems: 'center'}} ref={ref}>
-        <div>
-            <div>
-                <h1 style={{ fontSize: "6vw" }}>About Us</h1>
-                <p style={{ fontSize: "1.5vw" }}>Find out about who we are</p>
-            </div>
-            <div style={{
-                marginRight: 50
-            }}> 
-                <div style={{
-                    width: '100%',
-                }}>
-                    <h2 style={{ fontSize: '2vw' }}>We bring the community together through collaboration.</h2>
+    <div className={CSS.about_container} ref={ref}>
+            <div className={CSS.about_text_container}>
+                <div className={CSS.about_text_heading}>
+                    <h1 className={CSS.about_heading}>About Us</h1>
+                    <p>Find out about who we are</p>
                 </div>
-                <br />
-                <div style={{
-                    width: '100%',
-                    fontSize: '2vw',
-                    fontWeight: 200
-                }}>
-                    Our team has been working hard on paving the way for new job opportunities for all existing and new residents of the royal dock area. It is our mission to provide a platform where we can bring the area to life through collaboration.
+                <div> 
+                    <div>
+                        <h2>We bring the community together through collaboration.</h2>
+                    </div>
+                    <br />
+                    <div className={CSS.about_content_text}>
+                        Our team has been working hard on paving the way for new job opportunities for all existing and new residents of the royal dock area. It is our mission to provide a platform where we can bring the area to life through collaboration.
+                    </div>
                 </div>
-            </div>
         </div>
         <motion.div animate={animation}>
-            <Image src={AboutImg} fluid={true} width={3000} height='auto' />
+            <Image className={CSS.about_img} src={AboutImg} fluid={true} width={3000} height='auto' />
         </motion.div>
     </div>
   )

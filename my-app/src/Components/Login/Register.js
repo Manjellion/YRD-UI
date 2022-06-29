@@ -7,7 +7,7 @@ import { BsFacebook, BsFillLockFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
 import CSS from './index.module.css'
 
-function Login() {
+function Register() {
   return (
     <div className={CSS.container}>
         <div className={CSS.header}>
@@ -15,15 +15,15 @@ function Login() {
         </div>
         <div className={CSS.login_container}>
             <div className={CSS.login_header}>
-                <h1>Login</h1>
-                <p>Login to Your Royal Docks to easily join events and manage your business</p>
+                <h1>Register</h1>
+                <p>Register to Your Royal Docks to easily join events and manage your business</p>
             </div>
             <div className={CSS.register_btn}>
                 <div className={CSS.btn}>
-                    <Button><FcGoogle /> Login with Google</Button>
+                    <Button><FcGoogle /> Register with Google</Button>
                 </div>
                 <div className={CSS.btn}>
-                    <Button><BsFacebook color='#3b5998'/> Login with Facebook</Button>
+                    <Button><BsFacebook color='#3b5998'/> Register with Facebook</Button>
                 </div>
             </div>
             <div className={CSS.line}></div>
@@ -40,15 +40,11 @@ function Login() {
                         <Form.Label><BsFillLockFill /> Password</Form.Label>
                         <Form.Control type='password' placeholder='Password' />
                     </Form.Group>
-                    <Form.Group className='mb-3' controlId='formBasicPassword'>
-                        <Form.Check type='checkbox' label='Remeber Me' />
-                    </Form.Group>
                     <Form.Group className={CSS.form_btn}>
                         <Button variant='primary' type='submit'>
-                            Submit
+                            Register
                         </Button>
                     </Form.Group>
-                    <Form.Text>Not a member yet? <Link to='/register'>Create an account</Link></Form.Text>
                 </Form>
             </div>
         </div>
@@ -59,4 +55,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Register
