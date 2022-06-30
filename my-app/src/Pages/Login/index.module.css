@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100vh;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .container .login_img img {
-    width: 65vw;
+    width: 55vw;
     height: 100vh;
 }
 
