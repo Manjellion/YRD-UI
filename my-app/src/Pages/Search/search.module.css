@@ -1,0 +1,24 @@
+.container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.map_container {
+    z-index: 0;
+    position: absolute;
+}
+
+.component_container {
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    max-height: 100vh;
+}
+
+.search_output_container {
+    display: grid;
+    max-width: 75%;
+    justify-content: flex-end;
+    align-content: flex-end;
+}

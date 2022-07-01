@@ -1,4 +1,10 @@
-import { Home, Screen, Login, Register } from './Pages/export-index'
+import { 
+  Screen, 
+  Home, 
+  Search,
+  Login, 
+  Register 
+} from './Pages/export-index'
 import './App.css'
 import {
   BrowserRouter,
@@ -13,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Screen />} />
           <Route path='/residentPage' element={<Home />} />
+          <Route path='/searchPage' element={<Search />} />
           <Route path='/login' element={<Login /> } />
           <Route path='/register' element={<Register />} />
         </Routes>

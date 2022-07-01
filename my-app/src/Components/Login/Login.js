@@ -40,9 +40,9 @@ function Login() {
                         <Form.Label><BsFillLockFill /> Password</Form.Label>
                         <Form.Control type='password' placeholder='Password' />
                     </Form.Group>
-                    <Form.Group className={CSS.checkBox_group} controlId='formBasicPassword'>
+                    <Form.Group className={CSS.checkBox_group}>
                         <Form.Check type='checkbox' label='Remeber Me' />
-                        <Form.Text><Link to='/register'>Forgot Password</Link></Form.Text>
+                        <Form.Text><Link to='/'>Forgot Password</Link></Form.Text>
                     </Form.Group>
                     <Form.Group className={CSS.form_btn}>
                         <Button variant='primary' type='submit'>

@@ -1,0 +1,5 @@
+export { default as Search } from './searchBtn'
+export { default as Price } from './Pricing'
+export { default as Rooms } from './Rooms'
+export { default as Rating } from './Ratings'
+export { default as Options } from './Options'

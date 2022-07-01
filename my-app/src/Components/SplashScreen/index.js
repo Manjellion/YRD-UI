@@ -21,7 +21,7 @@ function index() {
                 <Card.Title style={{ textAlign: 'center', padding: 20 }} className={CSS.card_title}>Resident</Card.Title>
                 <Card.Body className={CSS.card_body}>
                     <Card.Text>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim debitis autem dicta, dolores exercitationem perspiciatis totam hic magnam fuga quibusdam asperiores consequatur eaque veniam ea aliquam cumque accusantium pariatur sunt.
+                    Are you living in breath-taking view of Royal Dock? A riverside industrial district that’s home to ExCeL London, Emirates Cable Car with many things to discover. Click here below to take your Royal Dock to the next level!
                     </Card.Text>
                 </Card.Body>
                 <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>
@@ -31,7 +31,7 @@ function index() {
                 <Card.Title style={{ textAlign: 'center', padding: 20 }} className={CSS.card_title}>Business Owner</Card.Title>
                 <Card.Body className={CSS.card_body}>
                     <Card.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quaerat! Animi repellat vitae a. Ipsum quis natus, impedit, excepturi, doloribus consequatur deleniti possimus nisi consectetur inventore modi incidunt animi cupiditate?
+                    If you are a passionate business owner or an entrepreneur living or have a business in Royal Dock, you can augment your concern in highly potential area of Royal Dock. Click here below to take your concern to the peak!
                     </Card.Text>
                 </Card.Body>
                 <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>
@@ -41,7 +41,7 @@ function index() {
                 <Card.Title style={{ textAlign: 'center', padding: 20 }} className={CSS.card_title}>Tourist</Card.Title>
                 <Card.Body className={CSS.card_body}>
                     <Card.Text>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem nobis autem cumque quo accusamus explicabo, impedit sint eos expedita. Magni error repellat reprehenderit, culpa dolorem earum alias consequuntur quod.
+                    Are you planning to visit Royal Dock soon? An astonishing tourist destination in the heart of London. Reveal the unseen beauty of O2 arena, Emirates Cable car, Excel exhibition centre and many other eye-catching places.
                     </Card.Text>
                 </Card.Body>
                 <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>

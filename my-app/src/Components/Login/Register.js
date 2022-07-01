@@ -9,7 +9,7 @@ import CSS from './index.module.css'
 
 function Register() {
   return (
-    <div className={CSS.container}>
+    <div className={CSS.register_container}>
         <div className={CSS.header}>
             <h1><Link to="/residentPage">YRD</Link></h1>
         </div>
@@ -40,10 +40,18 @@ function Register() {
                         <Form.Label><BsFillLockFill /> Password</Form.Label>
                         <Form.Control type='password' placeholder='Password' />
                     </Form.Group>
+                    <Form.Group className='mb-3' controlId='checkBox'>
+                        <Form.Check type='checkbox' label='Sign up to newsletters' />
+                    </Form.Group>
                     <Form.Group className={CSS.form_btn}>
                         <Button variant='primary' type='submit'>
                             Register
                         </Button>
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Text>
+                            Already got an account <Link to='/login'>Login here</Link>
+                        </Form.Text>
                     </Form.Group>
                 </Form>
             </div>

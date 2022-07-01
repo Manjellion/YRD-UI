@@ -1,14 +1,17 @@
 import React from 'react'
-
-import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
-
-import { Hero, About, How, Advert, Review } from '../../Components/Homepage/index'
+import { 
+  Hero, 
+  About, 
+  How, 
+  Advert, 
+  Review 
+} 
+from '../../Components/Homepage/export'
 
 function Home() {
   return (
     <div style={{ overflow: 'hidden' }}>
-
         <Hero /> {/* Hero section */}
         <About /> {/* About section */}      
         <How /> {/* How it works section */}

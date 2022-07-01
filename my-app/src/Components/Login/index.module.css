@@ -65,3 +65,10 @@ footer {
     padding-top: 5rem;
     opacity: 0.5;
 }
+
+.register_container {
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

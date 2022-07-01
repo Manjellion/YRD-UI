@@ -1,0 +1,102 @@
+:root {
+    --margin: .5rem;
+}
+
+.search_container {
+    display: grid;
+}
+
+.filter_container {
+    max-width: 75%;
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.filter_innerContainer {
+    padding: 1rem;
+}
+
+.filer_header {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--margin);
+}
+
+.price_filter {
+    margin: var(--margin);
+}
+
+.price_input_container {
+    display: flex;
+    justify-content: space-between;
+}
+.price_input_container input {
+    width: 25%;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.room_filter {
+    margin: var(--margin);
+}
+
+.rooms_input_bottomRow {
+    display: grid;
+}
+
+.rooms_input button {
+    margin: .5rem;
+    width: 50px;
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.rating_filter {
+    margin: var(--margin);
+}
+
+.options_filter {
+    margin: var(--margin);
+}
+
+.options_list ul {
+    list-style: none;
+}
+
+.options_list ul li { 
+    margin: .5rem 0;
+}
+
+.results_container {
+    padding: 1rem;
+    display: flex;
+}
+
+.card_container {
+    margin: .5rem;
+    padding: 1rem;
+    height: 520px;
+    width: 300px;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card_container img {
+    border-radius: .5rem;
+    height: 200px;
+}
+
+.results_card_button {
+    margin: 1rem;
+}
+
+.card_inner_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_inner {
+    border: none;
+}
