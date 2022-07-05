@@ -1,0 +1,11 @@
+.events_container {
+    padding: 0;
+    margin: 0;
+}
+
+.events_components {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}

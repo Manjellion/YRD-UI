@@ -2,6 +2,7 @@ import {
   Screen, 
   Home, 
   Search,
+  Events,
   Login, 
   Register 
 } from './Pages/export-index'
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' element={<Screen />} />
           <Route path='/residentPage' element={<Home />} />
           <Route path='/searchPage' element={<Search />} />
+          <Route path='/eventsPage' element={<Events />} />
           <Route path='/login' element={<Login /> } />
           <Route path='/register' element={<Register />} />
         </Routes>
