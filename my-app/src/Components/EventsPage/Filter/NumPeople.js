@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
 import CSS from '../index.module.css'
+import Button from 'react-bootstrap/Button'
 
-function Rooms() {
+function NumPeople() {
   return (
     <div className={CSS.rooms_container}>
         <h2>Number of Rooms</h2>
@@ -17,4 +17,4 @@ function Rooms() {
   )
 }
 
-export default Rooms
+export default NumPeople

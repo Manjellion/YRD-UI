@@ -1,5 +1,6 @@
 export { default as Home } from './Home/index'
 export { default as Screen } from './Screen/index'
 export { default as Search } from './Search/index'
+export { default as Events } from './Events/index'
 export { default as Login } from './Login/Login'
 export { default as Register } from './Login/Register'

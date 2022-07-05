@@ -9,6 +9,10 @@ function ResultsMain() {
         { cardImg: '', cardTitle: 'Dorchester Collection', cardText: '45 Park Lane features an on-site fitness studio and a modern American steak restaurant. A striking central staircase leads to a mezzanine featuring a bar, library and a private media room', Wifi:'Free Wifi', numOfRooms:'2 rooms', breakfast: 'Breakfast', parking: '' },
         { cardImg: '', cardTitle: 'Sidney Hotel London', cardText: 'This hotel features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs.', Wifi:'', numOfRooms:'2 rooms', breakfast: '', parking: 'Free Parking' },
         { cardImg: '', cardTitle: 'Sidney Hotel London', cardText: 'This hotel features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs.', Wifi:'', numOfRooms:'2 rooms', breakfast: '', parking: 'Free Parking' },
+        { cardImg: '', cardTitle: 'Sidney Hotel London', cardText: 'This hotel features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs.', Wifi:'', numOfRooms:'2 rooms', breakfast: '', parking: 'Free Parking' },
+        { cardImg: '', cardTitle: 'Sidney Hotel London', cardText: 'This hotel features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs.', Wifi:'', numOfRooms:'2 rooms', breakfast: '', parking: 'Free Parking' },
+        { cardImg: '', cardTitle: 'Sidney Hotel London', cardText: 'This hotel features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs.', Wifi:'', numOfRooms:'2 rooms', breakfast: '', parking: 'Free Parking' },
+        { cardImg: '', cardTitle: 'Sidney Hotel London', cardText: 'This hotel features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs.', Wifi:'', numOfRooms:'2 rooms', breakfast: '', parking: 'Free Parking' },
         { cardImg: '', cardTitle: 'Sidney Hotel London', cardText: 'This hotel features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs.', Wifi:'', numOfRooms:'2 rooms', breakfast: '', parking: 'Free Parking' }
     ]
 
@@ -29,6 +33,9 @@ function ResultsMain() {
                     </Card>
                     <Card className={CSS.card_inner}>
                         <Card.Text>{cardInfomation.breakfast}</Card.Text>
+                    </Card>
+                    <Card className={CSS.card_inner}>
+                        <Card.Text>{cardInfomation.parking}</Card.Text>
                     </Card>
                     <Card className={CSS.card_inner}>
                         <Card.Text>{cardInfomation.parking}</Card.Text>
