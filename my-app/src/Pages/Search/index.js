@@ -35,7 +35,7 @@ function index() {
                 cursor: 'grab',
                 overflow: 'hidden',
             }}>
-                <motion.div className='inner-carousel' drag='x' dragConstraints={{ right: 0, left: -1000 }} whileTap={{ cursor: "grabbing" }} style={{
+                <motion.div className='inner-carousel' drag='x' dragConstraints={{ right: 0, left: -width }} whileTap={{ cursor: "grabbing" }} style={{
                     display: 'flex',
                 }}>
                   <Results />

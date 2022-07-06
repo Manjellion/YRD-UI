@@ -69,6 +69,7 @@
 
     .card_title {
         position: absolute;
+        font-weight: 800;
     }
 }
 

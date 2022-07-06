@@ -39,7 +39,7 @@ function Advert() {
                 cursor: 'grab',
                 overflow: 'hidden',
             }}>
-                <motion.div className='inner-carousel' drag='x' dragConstraints={{ right: 0, left: -2000 }} whileTap={{ cursor: "grabbing" }} style={{
+                <motion.div className='inner-carousel' drag='x' dragConstraints={{ right: 0, left: -width }} whileTap={{ cursor: "grabbing" }} style={{
                     display: 'flex',
                 }}>
                     {images.map((image, index) => {

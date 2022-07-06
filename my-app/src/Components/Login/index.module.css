@@ -1,5 +1,5 @@
 .container {
-    margin: 1rem 0rem 1rem 5rem;
+    margin: 1rem 0rem 1rem 0rem;
 }
 
 .header {
@@ -45,7 +45,7 @@
 .checkBox_group {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 1rem;
 }
 
 .form_btn button {

@@ -1,4 +1,7 @@
 :root {
     --primary: #000;
     --secondary: #fff;
+    --internalBG: #dcdcdc;
+    --margin: .5rem;
+    --fontSize: 1.1em;
 }

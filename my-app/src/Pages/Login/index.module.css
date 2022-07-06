@@ -2,22 +2,41 @@
     display: flex;
     justify-content: space-between;
     height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container .login_component {
+    margin-left: 5rem;
 }
 
 .container .login_img{
     display: grid;
     justify-content: center;
     align-content: center;
+    margin-left: 1rem;
 }
 
 .container .login_img img {
-    width: 55vw;
+    width: 50vw;
     height: 100vh;
+}
+
+.register_container {
+    margin: 1rem 0;
 }
 
 @media screen and (max-width: 768px) {
     .container .login_img {
         display: none;
     }
+}
 
+@media screen and (max-width: 425px) {
+    .container .login_component {
+        margin: 0rem 2rem;
+    }
+    .register_container {
+        margin: 1rem 2rem;
+    }
 }
