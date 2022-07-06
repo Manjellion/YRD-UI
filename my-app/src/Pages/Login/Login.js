@@ -6,7 +6,9 @@ import LoginImg from '../../Images/Login/login-img.png'
 function index() {
   return (
     <div className={CSS.container}>
-        <LoginComp />
+        <div className={CSS.login_component}>
+          <LoginComp />
+        </div>
         <div className={CSS.login_img}>
             <img src={LoginImg} alt="Login Image"/>
         </div>

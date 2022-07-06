@@ -4,7 +4,7 @@ import CSS from './index.module.css'
 
 function index() {
   return (
-    <div className={CSS.container}>
+    <div className={CSS.register_container}>
         <RegisterComp />
     </div>
   )

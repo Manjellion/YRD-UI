@@ -4,8 +4,21 @@
 }
 
 .events_components {
+    padding: 1rem;
+    margin: 1rem;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-evenly;
+    background-color: var(--internalBG);
+}
+
+.events_filter {
+    position: -webkit-sticky;
+}
+
+@media screen and (max-width: 425px) {
+    .events_components {
+        display: grid;
+    }
 }

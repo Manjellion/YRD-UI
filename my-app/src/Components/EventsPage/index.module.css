@@ -1,5 +1,5 @@
 .filter_container {
-    max-width: 100%;
+    max-width: 75%;
     background-color: var(--secondary);
     border-radius: 1rem;
     margin: 1rem;
@@ -26,7 +26,9 @@
 
 .price_input_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
 }
 .price_input_container input {
     width: 25%;
@@ -61,10 +63,6 @@
     margin: .5rem 0;
 }
 
-.result_container {
-    
-}
-
 .card_img {
     max-width: 400px;
     max-height: 400px;
@@ -90,4 +88,28 @@
 .info_icon_cotainer {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1024px) {
+    .card_img {
+        max-width: 300px;
+    }
+
+    .card_text {
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .filter_header {
+        display: grid;
+    }
+    .price_input_container input {
+        width: 50%;
+        border-radius: 1rem;
+        text-align: center;
+    }
+    .card_img {
+        display: none;
+    }
 }
