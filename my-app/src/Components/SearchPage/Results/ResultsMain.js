@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import CSS from '../index.module.css'
 import TestImg1 from '../../../Images/Search/testImage1.png'
 
@@ -21,7 +22,7 @@ function ResultsMain() {
         {cardInfo.map((cardInfomation, key) => (
             <Card key={key} className={CSS.card_container}>
                 <Card.Img src={TestImg1} />
-                <Button className={CSS.results_card_button}>Book Here</Button>
+                <Button className={CSS.results_card_button}><Link to={`/productPage:${key}`}>Book Here</Link></Button>
                 <Card.Title>{cardInfomation.cardTitle}</Card.Title>
                 <Card.Text>{cardInfomation.cardText}</Card.Text>
                 <div className={CSS.card_inner_container}>
