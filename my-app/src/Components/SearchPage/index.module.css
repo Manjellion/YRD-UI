@@ -89,6 +89,11 @@
     margin: 1rem;
 }
 
+.results_card_button a {
+    color: white;
+    text-decoration: none;
+}
+
 .card_inner_container {
     display: flex;
     justify-content: space-evenly;
@@ -96,4 +101,188 @@
 
 .card_inner {
     border: none;
+}
+
+.product_image_container {
+    padding: 0;
+    margin: 0;
+}
+
+.product_image_main {
+    margin: 0rem 0rem 0rem 2rem;
+    display: grid;
+}
+
+.product_image_main img {
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.product_moreImg_container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.product_moreImg_container ul {
+    list-style: none;
+}
+
+.product_moreImg_container ul li img {
+    max-width: 176px;
+    max-height: 200px;
+    border-radius: 1rem;
+}
+
+.product_card {
+    max-width: 50rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product_card_title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.product_card_rating::after {
+    content: ' / 5.0 rating';
+}
+
+.product_card_price {
+    background: linear-gradient(90deg, rgba(4,74,254,1) 0%, rgb(73, 114, 224) 35%, rgba(0,255,254,1) 100%);
+    max-width: fit-content;
+    padding: .5rem 2rem;
+    color: var(--secondary);
+    font-weight: 700;
+}
+
+.product_cardPerks_container {
+    display: flex;
+}
+
+.product_card_perks {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: none;
+    margin-left: 1rem;
+}
+
+.product_card_button {
+    background: linear-gradient(90deg, rgba(4,74,254,1) 0%, rgb(73, 114, 224) 35%, rgba(0,255,254,1) 100%);
+    border: none;
+    font-weight: 700;
+}
+
+.product_card_options_container {
+    margin-top: 5rem;
+}
+
+.product_card_options_innerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_card_options {
+    padding: 5rem;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/19/8b/68/39/sidney-hotel-london-victoria.jpg);
+    height: fit-content;
+    width: fit-content;
+    opacity: 0.5;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product_card_options:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.product_card_options_text {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.product_components {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .product_card {
+        display: grid;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product_card_options_container h1 {
+        text-align: center;
+    }
+    .product_image_main img {
+        max-width: 600px;
+    }
+    .product_card {
+        max-width: 25rem;
+    }
+    .product_card_options_container {
+        margin-top: 1rem;
+    }
+    .product_card_options {
+        padding: 2.5rem 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .product_card {
+        max-width: 20rem;
+    }
+    .product_card_options_innerContainer {
+        display: grid;
+        justify-content: center;
+    }
+    .product_card_options {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product_components {
+        display: grid;
+        justify-content: center;
+    }
+    .product_card_container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .product_card {
+        max-width: 20rem;
+    }
+    .product_card_perks {
+        padding: .5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .product_image_container {
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+    .product_image_main img {
+        max-width: 350px;
+    }
+    .product_moreImg_container {
+        display: grid;
+        justify-content: center;
+    }
+    .product_card_container {
+        display: grid;
+        justify-content: center;
+    }
 }

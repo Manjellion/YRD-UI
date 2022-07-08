@@ -4,7 +4,8 @@ import {
   Search,
   Events,
   Login, 
-  Register 
+  Register, 
+  Product
 } from './Pages/export-index'
 import './App.css'
 import {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' element={<Screen />} />
           <Route path='/residentPage' element={<Home />} />
           <Route path='/searchPage' element={<Search />} />
+          <Route path='/productPage:id' element={<Product />} />
           <Route path='/eventsPage' element={<Events />} />
           <Route path='/login' element={<Login /> } />
           <Route path='/register' element={<Register />} />
