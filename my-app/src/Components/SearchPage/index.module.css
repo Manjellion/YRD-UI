@@ -240,6 +240,9 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .filter_header {
+        display: grid;
+    }
     .product_card {
         max-width: 20rem;
     }
