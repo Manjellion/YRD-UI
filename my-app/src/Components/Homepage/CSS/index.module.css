@@ -73,6 +73,71 @@
     margin: 5px;
 }
 
+.evemts_resident_container h1 {
+    text-align: center;
+}
+
+.events_inner_carousel {
+    display: grid;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.events_list_row1 {
+    display: flex;
+}
+
+.events_resident_card {
+    margin: 0 .5rem;
+    padding: 0 5rem;
+    background: var(--gradientColor);
+    box-shadow: var(--boxShadow);
+    border: none;
+    border-radius: 1rem;
+}
+
+.events_card_body {
+    color: white;
+    font-weight: 700;
+}
+
+.hotelAd_container {
+    margin: 5rem;
+}
+
+.hotelAd_header {
+    margin: 5rem 0 0 0;
+    text-align: center;
+}
+
+.hotelAd_components_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hotelAd_primary_component {
+    max-width: 75%;
+    margin-top: 1rem;
+}
+
+.hotelAd_secondary_components_container {
+    display: grid;
+}
+
+.hotelAd_secondary_components_container{
+    margin: 1rem;
+}
+
+.hotelAd_secondary_card_container {
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+}
+
+.hotelAd_secondary_card_header {
+    display: flex;
+    justify-content: space-around;
+}
+
 .review_container {
     margin: 50px;
 }
@@ -126,6 +191,13 @@
     .how_card {
         width: 15rem;
     }
+    .hotelAd_components_container {
+        display: grid;
+        justify-content: center;
+    }
+    .hotelAd_primary_component {
+        max-width: 100%;
+    }
     .review_card_container {
         display: grid;
     }
@@ -157,5 +229,12 @@
     }
     .about_img {
         display: none;
+    }
+    .hotelAd_components_container {
+        display: grid;
+        justify-content: center;
+    }
+    .hotelAd_primary_component {
+        max-width: 100%;
     }
 }

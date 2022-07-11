@@ -34,7 +34,7 @@ function index() {
                     If you are a passionate business owner or an entrepreneur living or have a business in Royal Dock, you can augment your concern in highly potential area of Royal Dock. Click here below to take your concern to the peak!
                     </Card.Text>
                 </Card.Body>
-                <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>
+                <Button variant='danger' className={CSS.card_button}><Link to="/businessPage">Select</Link></Button>
             </Card>
             <Card style={{ width: '20rem' }} className={CSS.card_component}>
                 <Card.Img variant="top" src={TouristImg} />
@@ -44,7 +44,7 @@ function index() {
                     Are you planning to visit Royal Dock soon? An astonishing tourist destination in the heart of London. Reveal the unseen beauty of O2 arena, Emirates Cable car, Excel exhibition centre and many other eye-catching places.
                     </Card.Text>
                 </Card.Body>
-                <Button variant='danger' className={CSS.card_button}><Link to="/residentPage">Select</Link></Button>
+                <Button variant='danger' className={CSS.card_button}><Link to="/businessPage">Select</Link></Button>
             </Card>
         </div>
     </div>

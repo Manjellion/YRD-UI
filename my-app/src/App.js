@@ -1,6 +1,7 @@
 import { 
   Screen, 
   Home, 
+  ResidentHome,
   Search,
   Events,
   Login, 
@@ -20,7 +21,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Screen />} />
-          <Route path='/residentPage' element={<Home />} />
+          <Route path='/residentPage' element={<ResidentHome />} />
+          <Route path='/businessPage' element={<Home />} />
           <Route path='/searchPage' element={<Search />} />
           <Route path='/productPage:id' element={<Product />} />
           <Route path='/eventsPage' element={<Events />} />
