@@ -1,4 +1,5 @@
 export { default as Home } from './Home/index'
+export { default as ResidentHome } from './Home/Resident/index'
 export { default as Screen } from './Screen/index'
 export { default as Search } from './Search/index'
 export { default as Product } from './Search/Product/Product'
