@@ -170,6 +170,8 @@
 
 .tourist_card_container img {
     border-radius: 1rem 1rem 0 0;
+    cursor: grab;
+    pointer-events: none;
 }
 
 .tourist_searchbar_options button {
