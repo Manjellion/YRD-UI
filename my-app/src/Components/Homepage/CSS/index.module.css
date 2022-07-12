@@ -138,6 +138,62 @@
     justify-content: space-around;
 }
 
+.toursit_main_container {
+    padding: 5rem;
+}
+
+.tourit_main_header {
+    text-align: center;
+}
+
+.tourit_main_header h1 {
+    font-size: 7vw;
+}
+
+.tourist_searchBar_component {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.tourist_carousel_component {
+    padding: 1rem;
+}
+
+.tourist_card_container {
+    width: 25rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: var(--boxShadow);
+}
+
+.tourist_card_container img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.tourist_searchbar_options button {
+    margin: 1rem;
+    background: grey;
+    border: none;
+    opacity: .5;
+    transition: .5s;
+}
+
+.tourist_searchbar_options button:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+.toursit_searchbar_container {
+    display: flex;
+}
+
+.tourist_searchbar_viewAll {
+    margin-left: 5rem;
+    padding: .5rem 2rem;
+}
+
 .review_container {
     margin: 50px;
 }
@@ -198,6 +254,18 @@
     .hotelAd_primary_component {
         max-width: 100%;
     }
+    .tourist_card_container {
+        max-width: 12rem;
+    }
+    .toursit_searchbar_container {
+        display: grid;
+    }
+    .tourist_searchbar_options {
+        display: grid;
+    }
+    .tourist_searchbar_viewAll {
+        margin: 0;
+    }
     .review_card_container {
         display: grid;
     }
@@ -236,5 +304,17 @@
     }
     .hotelAd_primary_component {
         max-width: 100%;
+    }
+    .toursit_searchbar_container {
+        display: grid;
+    }
+    .tourist_searchbar_viewAll {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .tourist_card_container {
+        width: 18rem;
     }
 }

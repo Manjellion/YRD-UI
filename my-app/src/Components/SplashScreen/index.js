@@ -44,7 +44,7 @@ function index() {
                     Are you planning to visit Royal Dock soon? An astonishing tourist destination in the heart of London. Reveal the unseen beauty of O2 arena, Emirates Cable car, Excel exhibition centre and many other eye-catching places.
                     </Card.Text>
                 </Card.Body>
-                <Button variant='danger' className={CSS.card_button}><Link to="/businessPage">Select</Link></Button>
+                <Button variant='danger' className={CSS.card_button}><Link to="/touristPage">Select</Link></Button>
             </Card>
         </div>
     </div>
