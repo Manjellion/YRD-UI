@@ -2,6 +2,7 @@ import {
   Screen, 
   Home, 
   ResidentHome,
+  TouristHome,
   Search,
   Events,
   Login, 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/' element={<Screen />} />
           <Route path='/residentPage' element={<ResidentHome />} />
           <Route path='/businessPage' element={<Home />} />
+          <Route path='/touristPage' element={<TouristHome />} />
           <Route path='/searchPage' element={<Search />} />
           <Route path='/productPage:id' element={<Product />} />
           <Route path='/eventsPage' element={<Events />} />
