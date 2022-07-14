@@ -91,12 +91,12 @@
     margin: 0 .5rem;
     padding: 0 5rem;
     background: var(--gradientColor);
-    box-shadow: var(--boxShadow);
-    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     border-radius: 1rem;
+    border: none;
 }
 
-.events_card_body {
+.events_card_title {
     color: white;
     font-weight: 700;
 }
@@ -115,6 +115,21 @@
     justify-content: space-around;
 }
 
+.hotelAd_primary_card_container {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 1rem;
+}
+
+.hotelAd_primary_card_container img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.hotelAd_primary_card_title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
 .hotelAd_primary_component {
     max-width: 75%;
     margin-top: 1rem;
@@ -131,11 +146,27 @@
 .hotelAd_secondary_card_container {
     margin: 0 0 1rem 0;
     padding: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 1rem;
+}
+
+.hotelAd_secondary_card_container img {
+    border-radius: 1rem;
 }
 
 .hotelAd_secondary_card_header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.hotelAd_secondary_card_button {
+    margin: 1rem 0;
+}
+
+.hotelAd_secondary_card_details {
+    display: flex;
+    font-size: 1.3em;
 }
 
 .toursit_main_container {

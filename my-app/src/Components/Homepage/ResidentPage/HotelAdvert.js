@@ -3,7 +3,9 @@ import ColoredLine from '../Components/ColoredLine';
 import CardHotelAd from './CardHotelAd';
 import CSS from '../CSS/index.module.css'
 import {Card , Button} from 'react-bootstrap'
+import { AiOutlineUser, AiFillCar } from 'react-icons/ai'
 import image from '../../../Images/Search/testImage2.png'
+
 
 function HotelAdvert() {
   return (
@@ -32,12 +34,12 @@ function HotelAdvert() {
                 <Card.Body className={CSS.hotelAd_secondary_card_header}>
                   <Card.Body>
                     <Card.Title>SIDNEY HOTEL LONDON</Card.Title>
-                    <Button variant='danger'>NEW!</Button>
-                    <Card.Text>5.0 / 5.0</Card.Text>
+                    <Button variant='danger' className={CSS.hotelAd_secondary_card_button}>NEW!</Button>
+                    <Card.Text>Rating: 5.0 / 5.0</Card.Text>
                   </Card.Body>
-                  <Card.Body>
-                    <Card.Text>2</Card.Text>
-                    <Card.Text>0</Card.Text>
+                  <Card.Body className={CSS.hotelAd_secondary_card_details}>
+                    <Card.Text><AiOutlineUser />2</Card.Text>
+                    <Card.Text><AiFillCar />0</Card.Text>
                   </Card.Body>
                 </Card.Body>
                 <Card.Text>Features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs</Card.Text>
@@ -50,12 +52,12 @@ function HotelAdvert() {
                   <Card.Body className={CSS.hotelAd_secondary_card_header}>
                     <Card.Body>
                       <Card.Title>SIDNEY HOTEL LONDON</Card.Title>
-                      <Button variant='danger'>NEW!</Button>
+                      <Button variant='danger' className={CSS.hotelAd_secondary_card_button}>NEW!</Button>
                       <Card.Text>5.0 / 5.0</Card.Text>
                     </Card.Body>
-                    <Card.Body>
-                      <Card.Text>2</Card.Text>
-                      <Card.Text>0</Card.Text>
+                    <Card.Body className={CSS.hotelAd_secondary_card_details}>
+                      <Card.Text><AiOutlineUser />2</Card.Text>
+                      <Card.Text><AiFillCar />0</Card.Text>
                     </Card.Body>
                   </Card.Body>
                   <Card.Text>Features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs</Card.Text>

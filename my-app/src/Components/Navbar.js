@@ -1,6 +1,7 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Logo from '../Images/Logo/S_Logo.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Navigationbar() {
@@ -8,7 +9,7 @@ function Navigationbar() {
     <>
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="/" style={{ fontSize: 40 }}><Link to="/" style={{ textDecoration: 'none', color: '#000' }}>YRD</Link></Navbar.Brand>
+          <Navbar.Brand href="/" style={{ fontSize: 40 }}><Link to="/" style={{ textDecoration: 'none', color: '#000' }}><img src={Logo} style={{ height: 75, width: 150 }} /></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="justify-content-end">
             <Nav.Link href='#Home'><Link to="/residentPage" style={{ textDecoration: 'none', color: '#000'}}>Home</Link></Nav.Link>
