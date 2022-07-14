@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 import { FcGoogle } from 'react-icons/fc'
 import { BsFacebook, BsFillLockFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
+import Logo from '../../Images/Logo/M_Logo.jpg'
 import CSS from './index.module.css'
 
 function Register() {
   return (
     <div className={CSS.register_container}>
-        <div className={CSS.header}>
-            <h1><Link to="/residentPage">YRD</Link></h1>
+        <div className={CSS.register_header}>
+            <h1><Link to="/residentPage"><img src={Logo} className={CSS.register_header_img} /></Link></h1>
         </div>
         <div className={CSS.login_container}>
             <div className={CSS.login_header}>

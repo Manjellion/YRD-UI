@@ -5,11 +5,11 @@ import image from '../../../Images/Search/testImage1.png'
 
 function CardHotelAd(props) {
   return (
-    <Card>
-        <Card.Img src={image} alt="Hotel Ad image" />
+    <Card className={CSS.hotelAd_primary_card_container}>
+        <Card.Img src={image} alt="Hotel Ad image"  />
         <Card.Body>
-            <Card.Title>{props.title}</Card.Title>
-            <Card.Text>{props.rating}</Card.Text>
+            <Card.Title className={CSS.hotelAd_primary_card_title}>{props.title}</Card.Title>
+            <Card.Text>Rating: {props.rating}</Card.Text>
             <Card.Text>Number of rooms: {props.numOfRooms}</Card.Text>
             <Card.Text>Wifi included: {props.wifi}</Card.Text>
             <Card.Text>Free Breakfast: {props.breakfast}</Card.Text>
