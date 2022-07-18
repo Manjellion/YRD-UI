@@ -11,7 +11,7 @@ function index() {
     <div className={CSS.container}>
         <div className={CSS.header_Container}>
             <h1>Who's viewing the page?</h1>
-            <p>Choose your option below</p>
+            <p>Choose your option below...</p>
         </div>
         <div className={CSS.card_Container}>
             <Cards 
