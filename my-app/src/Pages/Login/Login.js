@@ -10,7 +10,7 @@ function index() {
           <LoginComp />
         </div>
         <div className={CSS.login_img}>
-            <img  alt="Login Image"/>
+            <img />
         </div>
     </div>
   )
