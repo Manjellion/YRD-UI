@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import ColoredLine from './Components/ColoredLine'
+import CSS from './CSS/index.module.css'
 import { BsArrowRightCircle } from 'react-icons/bs'
 
 import images from './Components/ad-images'
@@ -25,13 +26,13 @@ function Advert() {
 
   return (
     <div style={{ margin: '1%', padding: 0 }}>
-        <div style={{ textAlign: 'center' }}>
+        <div className={CSS.advert_text_container}>
             <ColoredLine color="black" />
             <div style={{
                 marginTop: 50,
             }}>
                 <h1 style={{ fontSize: '8vw' }}>Advertisements</h1>
-                <p style={{ fontSize: '1.5vw' }}>Check out the latest products</p>
+                <p>Check out the latest products</p>
             </div>
         </div>
         <div>

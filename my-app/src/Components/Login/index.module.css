@@ -60,7 +60,7 @@
 }
 
 footer {
-    padding-top: 5rem;
+    padding-top: 1rem;
     opacity: 0.5;
 }
 
@@ -72,9 +72,8 @@ footer {
 }
 
 .register_header_img {
-    height: 300px;
-    width: 400px;
-    justify-content: center;
+    height: 150px;
+    width: 300px;
 }
 
 .register_header {
@@ -90,10 +89,10 @@ footer {
         width: 200px;
     }
     .login_header h1 {
-        font-size: 2em;
+        font-size: 1.75em;
     }
     .login_header p {
-        font-size: 1em;
+        font-size: .75em;
     }
     .register_btn {
         display: flexbox;
@@ -107,8 +106,5 @@ footer {
     .checkBox_group {
         font-size: .75em;
         margin: 0;
-    }
-    footer p {
-        padding-top: 2rem;
     }
 }

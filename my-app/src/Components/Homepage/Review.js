@@ -14,8 +14,8 @@ function Review() {
     <div className={CSS.review_container}>
         <ColoredLine color='black' />
         <div className={CSS.review_text_container}>
-            <h1 style={{ fontSize: '6vw'}}>Reviews</h1>
-            <p style={{ fontSize: '1.5vw' }}>See what people think of this App</p>
+            <h1 style={{ fontSize: '8vw'}}>Reviews</h1>
+            <p>See what people think of this App</p>
         </div>
         <div className={CSS.review_card_container}>
             <Card className={CSS.review_card}>

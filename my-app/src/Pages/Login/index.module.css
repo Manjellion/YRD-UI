@@ -19,7 +19,7 @@
 
 .container .login_img img {
     width: 60vw;
-    height: 100vh;
+    height: 80vh;
 }
 
 .register_container {
@@ -28,17 +28,19 @@
 
 @media screen and (max-width: 1024px) {
     .container .login_component {
-        margin: 0 1rem;
+        margin: 0 5rem;
+        width: 100%;
     }
     .container .login_img img {
-        height: 80vh;
-        width: 70vw;
+        height: 65vh;
+        width: 50vw;
     }
 }
 
 @media screen and (max-width: 768px) {
     .container .login_component {
-        margin: 0 5rem;
+        display: flex;
+        justify-content: center;
     }
     .container .login_img {
         display: none;

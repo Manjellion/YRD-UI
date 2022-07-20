@@ -70,6 +70,10 @@
     margin: 5px;
 }
 
+.advert_text_container {
+    text-align: center;
+}
+
 .evemts_resident_container h1 {
     text-align: center;
 }
@@ -175,7 +179,7 @@
 }
 
 .tourit_main_header h1 {
-    font-size: 7vw;
+    font-size: 8vw;
 }
 
 .tourist_searchBar_component {
@@ -204,9 +208,12 @@
 
 .tourist_searchbar_options button {
     margin: 1rem;
-    background: grey;
+    padding: 1rem;
+    background: lightgrey;
+    color: black;
     border: none;
-    opacity: .5;
+    border-radius: 2rem;
+    opacity: .75;
     transition: .5s;
 }
 
@@ -217,11 +224,13 @@
 
 .toursit_searchbar_container {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
 }
 
-.tourist_searchbar_viewAll {
-    margin-left: 5rem;
-    padding: .5rem 2rem;
+.tourist_searchbar_viewAll button {
+    padding: 1rem;
 }
 
 .review_container {
@@ -290,8 +299,14 @@
     .how_cards_container {
         display: grid;
     }
+    .how_text_container p {
+        font-size: .8em;
+    }
     .how_card {
         width: 15rem;
+    }
+    .advert_text_container p {
+        font-size: .8em;
     }
     .hotelAd_components_container {
         display: grid;
@@ -303,14 +318,29 @@
     .tourist_card_container {
         max-width: 12rem;
     }
+    .tourit_main_header p {
+        font-size: .8em;
+    }
     .toursit_searchbar_container {
         display: grid;
     }
     .tourist_searchbar_options {
         display: grid;
+        justify-content: center;
     }
     .tourist_searchbar_viewAll {
-        margin: 0;
+        display: grid;
+        margin: 2rem 0 0 0;
+        justify-content: center;
+    }
+    .tourist_searchbar_viewAll::after {
+        content: "Results ↓";
+        text-align: center;
+        padding-top: 2.5rem;
+        font-size: 1.5em;
+    }
+    .review_text_container p {
+        font-size: .8em;
     }
     .review_card_container {
         display: grid;
