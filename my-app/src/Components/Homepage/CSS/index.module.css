@@ -165,9 +165,18 @@
     margin: 1rem 0;
 }
 
-.hotelAd_secondary_card_details {
+.secondary_details_icons {
+    background-color: rgb(50, 85, 241);
+    padding: .25rem .5rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.hotelAd_secondary_card_values {
     display: flex;
-    font-size: 1.3em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .toursit_main_container {
@@ -314,6 +323,25 @@
     }
     .hotelAd_primary_component {
         max-width: 100%;
+    }
+    .hotelAd_secondary_card_container {
+        width: 18rem;
+        padding: .5rem;
+    }
+    .hotelAd_secondary_title {
+        font-size: 1em;
+    }
+    .hotelAd_secondary_card_details {
+        display: grid;
+    }
+    .hotelAd_secondary_card_values {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .secondary_details {
+        background-color: grey;
+        color: white;
+        border-radius: 1rem;
     }
     .tourist_card_container {
         max-width: 12rem;
