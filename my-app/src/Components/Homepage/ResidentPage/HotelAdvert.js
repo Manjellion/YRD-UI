@@ -33,13 +33,13 @@ function HotelAdvert() {
                 <Card.Img src={image} />
                 <Card.Body className={CSS.hotelAd_secondary_card_header}>
                   <Card.Body>
-                    <Card.Title>SIDNEY HOTEL LONDON</Card.Title>
+                    <Card.Title className={CSS.hotelAd_secondary_title}>SIDNEY HOTEL LONDON</Card.Title>
                     <Button variant='danger' className={CSS.hotelAd_secondary_card_button}>NEW!</Button>
                     <Card.Text>Rating: 5.0 / 5.0</Card.Text>
                   </Card.Body>
                   <Card.Body className={CSS.hotelAd_secondary_card_details}>
-                    <Card.Text><AiOutlineUser />2</Card.Text>
-                    <Card.Text><AiFillCar />0</Card.Text>
+                    <Card.Text className={CSS.hotelAd_secondary_card_values}><span className={CSS.secondary_details_icons}><AiOutlineUser /></span>:2</Card.Text>
+                    <Card.Text className={CSS.hotelAd_secondary_card_values}><span className={CSS.secondary_details_icons}><AiFillCar /></span>:0</Card.Text>
                   </Card.Body>
                 </Card.Body>
                 <Card.Text>Features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs</Card.Text>
@@ -51,13 +51,13 @@ function HotelAdvert() {
                   <Card.Img src={image} />
                   <Card.Body className={CSS.hotelAd_secondary_card_header}>
                     <Card.Body>
-                      <Card.Title>SIDNEY HOTEL LONDON</Card.Title>
+                      <Card.Title className={CSS.hotelAd_secondary_title}>SIDNEY HOTEL LONDON</Card.Title>
                       <Button variant='danger' className={CSS.hotelAd_secondary_card_button}>NEW!</Button>
                       <Card.Text>5.0 / 5.0</Card.Text>
                     </Card.Body>
                     <Card.Body className={CSS.hotelAd_secondary_card_details}>
-                      <Card.Text><AiOutlineUser />2</Card.Text>
-                      <Card.Text><AiFillCar />0</Card.Text>
+                      <Card.Text className={CSS.hotelAd_secondary_card_values}><span className={CSS.secondary_details_icons}><AiOutlineUser /></span>:2</Card.Text>
+                      <Card.Text className={CSS.hotelAd_secondary_card_values}><span className={CSS.secondary_details_icons}><AiFillCar /></span>:0</Card.Text>
                     </Card.Body>
                   </Card.Body>
                   <Card.Text>Features bright, modern rooms with Hypnos beds, private bathrooms and 32-inch LED TVs</Card.Text>
