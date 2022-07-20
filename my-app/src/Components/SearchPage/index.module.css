@@ -17,15 +17,24 @@
 .filter_header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: var(--margin);
 }
 
-.filter_header h1 {
-    font-size: var(--fontSize);
+.filter_header h2 {
+    font-size: 1.5em;
+}
+
+.filter_header button {
+    padding: .5rem 1rem;
 }
 
 .price_filter {
     margin: var(--margin);
+}
+
+.price_container h2 {
+    font-size: 1.5em;
 }
 
 .price_input_container {
@@ -42,6 +51,10 @@
     margin: var(--margin);
 }
 
+.rooms_container h2 {
+    font-size: 1.5em;
+}
+
 .rooms_input button {
     margin: .5rem;
     width: 50px;
@@ -53,8 +66,16 @@
     margin: var(--margin);
 }
 
+.ratings_container h2 {
+    font-size: 1.5em;
+}
+
 .options_filter {
     margin: var(--margin);
+}
+
+.options_container h2 {
+    font-size: 1.5em;
 }
 
 .options_list ul {
@@ -240,8 +261,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .filter_header {
-        display: grid;
+    .filter_innerContainer {
+        width: 20rem;
+    }
+    .price_container h2 {
+        font-size: 1em;
+    }
+    .rooms_container h2 {
+        font-size: 1em;
+    }
+    .ratings_container h2 {
+        font-size: 1em;
+    }
+    .options_container h2 {
+        font-size: 1em;
     }
     .product_card {
         max-width: 20rem;

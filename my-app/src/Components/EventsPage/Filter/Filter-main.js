@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button'
 import React from 'react'
 import CSS from '../index.module.css'
 import ColoredLine from '../../Homepage/Components/ColoredLine'
+import { TextField } from '@mui/material'
 import {
   Pricing,
   NumPeople,
@@ -15,6 +16,10 @@ function filterMain() {
         <div className={CSS.filter_header}>
               <h2>Filters</h2>
               <Button>Clear all</Button>
+          </div>
+          <ColoredLine color='grey' />
+          <div className={CSS.search_filter}>
+            <TextField id="outlined-basic" label="Search" variant="outlined" className={CSS.searchBtn} />
           </div>
           <ColoredLine color='grey' />
           <div className={CSS.price_filter}>

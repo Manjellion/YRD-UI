@@ -12,6 +12,7 @@ function ResultMain() {
             date={contacts[0].date}
             capacity={contacts[0].capacity}
             catergory={contacts[0].catergory}
+            price={contacts[0].price}
         />
         <Cards 
             imgUrl={contacts[0].imgURL}
@@ -19,6 +20,7 @@ function ResultMain() {
             date={contacts[0].date}
             capacity={contacts[0].capacity}
             catergory={contacts[0].catergory}
+            price={contacts[0].price}
         />
         <Cards 
             imgUrl={contacts[0].imgURL}
@@ -26,6 +28,7 @@ function ResultMain() {
             date={contacts[0].date}
             capacity={contacts[0].capacity}
             catergory={contacts[0].catergory}
+            price={contacts[0].price}
         />
         <Cards 
             imgUrl={contacts[0].imgURL}
@@ -33,6 +36,7 @@ function ResultMain() {
             date={contacts[0].date}
             capacity={contacts[0].capacity}
             catergory={contacts[0].catergory}
+            price={contacts[0].price}
         />
         <Cards 
             imgUrl={contacts[0].imgURL}
@@ -40,6 +44,7 @@ function ResultMain() {
             date={contacts[0].date}
             capacity={contacts[0].capacity}
             catergory={contacts[0].catergory}
+            price={contacts[0].price}
         />
         <Cards 
             imgUrl={contacts[0].imgURL}
@@ -47,6 +52,7 @@ function ResultMain() {
             date={contacts[0].date}
             capacity={contacts[0].capacity}
             catergory={contacts[0].catergory}
+            price={contacts[0].price}
         />
     </div>
   )

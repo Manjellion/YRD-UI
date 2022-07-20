@@ -20,7 +20,10 @@ function Cards(props) {
                     <Card.Text className={CSS.card_text}>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate veniam suscipit in magni similique, sed eligendi possimus odit aliquam ad atque rerum hic quibusdam voluptatibus quisquam repellendus consequatur ipsam dolore!
                     </Card.Text>
-                    <Button>Join</Button>
+                    <Card.Body className={CSS.card_footer}>
+                        <Button>Join</Button>
+                        <Card.Text>Price: {props.price}</Card.Text>
+                    </Card.Body>
                 </Card.Body>
             </Card.Body>
         </Card>

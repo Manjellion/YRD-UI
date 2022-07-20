@@ -55,9 +55,6 @@ function About() {
                     <p>Find out about who we are</p>
                 </div>
                 <div> 
-                    <div>
-                        <h2>We bring the community together through collaboration.</h2>
-                    </div>
                     <br />
                     <div className={CSS.about_content_text}>
                         Our team has been working hard on paving the way for new job opportunities for all existing and new residents of the royal dock area. It is our mission to provide a platform where we can bring the area to life through collaboration.

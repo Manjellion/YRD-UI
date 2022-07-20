@@ -1,5 +1,5 @@
 .filter_container {
-    max-width: 75%;
+    max-width: 100%;
     background-color: var(--secondary);
     border-radius: 1rem;
     margin: 1rem;
@@ -8,6 +8,7 @@
 
 .filter_innerContainer {
     padding: 1rem;
+    width: 20rem;
 }
 
 .filter_header {
@@ -16,17 +17,31 @@
     margin: var(--margin);
 }
 
-.filter_header h1 {
-    font-size: var(--fontSize);
+.filter_header h2 {
+    font-size: 1.5em;
+    margin: var(--margin);
+}
+
+.filter_header button {
+    margin: var(--margin);
+}
+
+.search_filter {
+    display: flex;
+    justify-content: center;
 }
 
 .price_filter {
     margin: var(--margin);
 }
 
+.price_filter h2 {
+    font-size: 1.5em;
+}
+
 .price_input_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,6 +53,10 @@
 
 .room_filter {
     margin: var(--margin);
+}
+
+.rooms_container h2 {
+    font-size: 1.5em;
 }
 
 .rooms_input button {
@@ -53,6 +72,10 @@
 
 .options_filter {
     margin: var(--margin);
+}
+
+.options_container h2 {
+    font-size: 1.5em;
 }
 
 .options_list ul {
@@ -83,6 +106,12 @@
     text-align: center;
     font-size: 1.5em;
     font-weight: 700;
+}
+
+.card_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .info_icon_cotainer {

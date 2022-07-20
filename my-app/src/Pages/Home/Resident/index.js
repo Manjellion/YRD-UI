@@ -4,7 +4,8 @@ import {
     Hero, 
     About, 
     How,
-    Review 
+    Review, 
+    Advert
 } from '../../../Components/Homepage/export'
 
 import { 
@@ -22,6 +23,7 @@ function index() {
             <How />
             <Events />
             <HotelAds />
+            <Advert />
             <Review />
         <Footer />
     </div>

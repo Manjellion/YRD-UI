@@ -7,10 +7,10 @@ function Options() {
         <h2>Additional Options</h2>
         <div className={CSS.options_list}>
             <ul>
-                <li><input type='checkbox'/> Free Wi-Fi</li>
-                <li><input type='checkbox'/> Free Breakfast</li>
-                <li><input type='checkbox'/> Car Park</li>
-                <li><input type='checkbox'/> Gym</li>
+                <li><input type='checkbox'/> Sports</li>
+                <li><input type='checkbox'/> Gaming</li>
+                <li><input type='checkbox'/> Charity</li>
+                <li><input type='checkbox'/> Concert</li>
             </ul>
         </div>
     </div>
