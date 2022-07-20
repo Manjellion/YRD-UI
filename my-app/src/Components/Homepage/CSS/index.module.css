@@ -1,6 +1,3 @@
-.navbar {
-}
-
 .hero_container {
     height: 100vh;
 }
@@ -27,12 +24,12 @@
 }
 
 .hero_text h1 {
-    color: transparent;
-    -webkit-text-stroke: 3px white;
+    font-weight: 800;
 }
 
 .about_container {
     margin: 50px;
+    padding: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -201,6 +198,7 @@
 
 .tourist_card_container img {
     border-radius: 1rem 1rem 0 0;
+    pointer-events: none;
 }
 
 .tourist_searchbar_options button {
@@ -246,19 +244,35 @@
 
 @media screen and (max-width: 425px) {
     .hero_container {
-        height: 50vh;
+        height: 30vh;
     }
     .hero_img {
-        height: 50vh;
+        height: 30vh;
     }
     .hero_text {
-        height: 40vh;
+        height: 25vh;
     }
     .about_container {
+        position: relative;
         text-align: center;
+        padding: 2.5rem 0 0 0;
+    }
+    .about_container::before {
+        position: absolute;
+        content: "";
+        background-color: lightgrey;
+        width: 55%;
+        height: .2rem;
+        left: 0;
+        right: 0;
+        top: -.5rem;
+        margin: auto;
     }
     .about_text_container {
         margin: 0;
+    }
+    .about_text_heading p {
+        font-size: .8em;
     }
     .about_content_text {
         font-size: 1em;

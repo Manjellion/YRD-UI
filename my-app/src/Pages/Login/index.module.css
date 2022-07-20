@@ -7,7 +7,7 @@
 }
 
 .container .login_component {
-    margin-left: 5rem;
+    margin: 0 5rem;
 }
 
 .container .login_img{
@@ -18,7 +18,7 @@
 }
 
 .container .login_img img {
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
 }
 
@@ -26,7 +26,20 @@
     margin: 1rem 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .container .login_component {
+        margin: 0 1rem;
+    }
+    .container .login_img img {
+        height: 80vh;
+        width: 70vw;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .container .login_component {
+        margin: 0 5rem;
+    }
     .container .login_img {
         display: none;
     }

@@ -55,7 +55,7 @@ function Login() {
             </div>
         </div>
         <footer>
-            © All rights reserved to Your Royal Docks
+            <p>© All rights reserved to Your Royal Docks</p>
         </footer>
     </div>
   )
