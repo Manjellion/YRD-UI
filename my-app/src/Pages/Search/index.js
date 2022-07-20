@@ -8,7 +8,7 @@ import {
  } from '../../Components/SearchPage/export'
 import Navigationbar from '../../Components/Navbar'
 
-function index() {
+function Search() {
 
   const [width, setWidth ] = useState(0);
   const carousel = useRef();
@@ -47,4 +47,4 @@ function index() {
   )
 }
 
-export default index
+export default Search
