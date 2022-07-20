@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { FcGoogle } from 'react-icons/fc'
 import { BsFacebook, BsFillLockFill } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
-import Logo from '../../Images/Logo/M_Logo.jpg'
+import Logo from '../../Images/Logo/S_Logo.jpg'
 import CSS from './index.module.css'
 
 function Register() {
