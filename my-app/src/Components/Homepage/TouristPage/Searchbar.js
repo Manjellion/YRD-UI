@@ -11,7 +11,9 @@ function Searchbar() {
             <Button>Supermarkets</Button>
             <Button>Gyms</Button>
         </div>
-        <Button className={CSS.tourist_searchbar_viewAll}>View All</Button>
+        <div className={CSS.tourist_searchbar_viewAll}>
+          <Button>View All</Button>
+        </div>
     </div>
   )
 }

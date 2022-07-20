@@ -56,7 +56,7 @@ function How() {
             <ColoredLine color="black" />
             <div className={CSS.how_text_container}>
                 <h1 style={{ fontSize: '8vw' }}>How it works</h1>
-                <p style={{ fontSize: '1.5vw' }}>Get started in 3 simple steps</p>
+                <p>Get started in 3 simple steps</p>
             </div>
             <div className={CSS.how_cards_container}>
                 <motion.Card className={CSS.how_card} animate={animation}>
