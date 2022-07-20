@@ -42,7 +42,7 @@ function Login() {
                         <Form.Control type='password' placeholder='Password' />
                     </Form.Group>
                     <Form.Group className={CSS.checkBox_group}>
-                        <Form.Check type='checkbox' label='Remeber Me' />
+                        <Form.Check type='checkbox' label='Remember Me' />
                         <Form.Text><Link to='/'>Forgot Password</Link></Form.Text>
                     </Form.Group>
                     <Form.Group className={CSS.form_btn}>

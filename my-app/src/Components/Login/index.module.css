@@ -60,7 +60,7 @@
 }
 
 footer {
-    padding-top: 1rem;
+    padding-top: 10rem;
     opacity: 0.5;
 }
 
@@ -82,7 +82,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .header {
-        padding-bottom: 1rem;
+        padding-bottom: 5rem;
     }
     .header_img {
         height: 100px;
@@ -106,5 +106,8 @@ footer {
     .checkBox_group {
         font-size: .75em;
         margin: 0;
+    }
+    footer {
+        padding-top: 5rem;
     }
 }
