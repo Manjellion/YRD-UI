@@ -7,7 +7,7 @@ function Cards(props) {
   return (
     <Card style={{ width: '20rem' }} className={CSS.card_component}>
         <Card.Img variant="top" src={props.img} />
-        <Card.Title style={{ textAlign: 'center', padding: 20 }} className={CSS.card_title}>{props.title}</Card.Title>
+        <Card.Title style={{ textAlign: 'center'}} className={CSS.card_title}>{props.title}</Card.Title>
         <Card.Body className={CSS.card_body}>
             <Card.Text className={CSS.card_text}>
             {props.description}
