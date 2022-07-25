@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100vh;
     padding: 0;
     margin: 0;
@@ -18,29 +18,31 @@
 }
 
 .container .login_img img {
-    width: 50vw;
     height: 80vh;
-    background-image: url('../../Images/Login/login-img-test.png');
-    background-repeat: no-repeat;
 }
 
 .register_container {
     margin: 1rem 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
+    .container .login_img img {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1280px) {
     .container .login_component {
         margin: 0 5rem;
         width: 100%;
     }
     .container .login_img img {
         height: 80vh;
-        width: 50vw;
-        background-image: url('../../Images/Login/login-img-test-m.png');
+        width: 60vw;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .container .login_component {
         display: flex;
         justify-content: center;
@@ -50,7 +52,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
     .container .login_component {
         margin: 0rem 2rem;
     }

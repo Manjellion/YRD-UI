@@ -1,7 +1,7 @@
 import React from 'react'
 import LoginComp from '../../Components/Login/Login'
 import CSS from './index.module.css'
-import LoginImg from '../../Images/Login/login-img-test.png'
+import LoginImg from '../../Images/Login/login-img.png'
 
 function index() {
   return (
@@ -10,7 +10,7 @@ function index() {
           <LoginComp />
         </div>
         <div className={CSS.login_img}>
-            <img />
+            <img src={LoginImg} />
         </div>
     </div>
   )

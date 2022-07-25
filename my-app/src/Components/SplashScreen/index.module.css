@@ -11,10 +11,6 @@
     padding-bottom: 1rem;
 }
 
-.header_Container img {
-
-}
-
 .header_Container h1 {
     font-size: 5vw;
     font-weight: 700;
@@ -28,6 +24,7 @@
 
 .card_title {
     font-weight: 800;
+    padding-top: 1rem;
 }
 
 .card_text {
