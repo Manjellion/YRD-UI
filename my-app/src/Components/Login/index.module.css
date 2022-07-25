@@ -2,10 +2,6 @@
     margin: 1rem 0rem 1rem 0rem;
 }
 
-.header {
-    padding-bottom: 5rem;
-}
-
 .header_img {
     height: 150px;
     width: 300px;
@@ -109,7 +105,6 @@ footer {
         margin: 0;
     }
     footer {
-        padding-top: 7.5rem;
         font-size: .75em;
     }
 }

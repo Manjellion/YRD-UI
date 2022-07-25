@@ -25,12 +25,14 @@
     margin: 1rem 0;
 }
 
+/* Large Screen Laptops */
 @media screen and (max-width: 1440px) {
     .container .login_img img {
         height: 100vh;
     }
 }
 
+/* M Screen Laptops */
 @media screen and (max-width: 1280px) {
     .container .login_component {
         margin: 0 5rem;
@@ -42,6 +44,7 @@
     }
 }
 
+/* Large Screen Tablets */
 @media screen and (max-width: 1024px) {
     .container .login_component {
         display: flex;
@@ -52,6 +55,7 @@
     }
 }
 
+/* Mobile Screens */
 @media screen and (max-width: 480px) {
     .container .login_component {
         margin: 0rem 2rem;
