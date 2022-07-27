@@ -41,14 +41,14 @@
 
 .price_input_container {
     display: flex;
+    width: 50%;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
 }
-.price_input_container input {
-    width: 25%;
-    border-radius: 1rem;
+.price_input_container button {
     text-align: center;
+    background-color: lightgrey;
+    color: black;
+    border: none;
 }
 
 .room_filter {
@@ -87,14 +87,13 @@
 }
 
 .card_img {
-    max-width: 400px;
-    max-height: 400px;
+    width: 400px;
+    height: 400px;
 }
 
 .card_container {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    max-width: 1000px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
@@ -120,10 +119,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .card_img {
-        max-width: 300px;
+    .filter_container {
+        font-size: .75em;
     }
-
+    .options_list ul {
+        display: flex;
+    }
+    .card_img {
+        display: none;
+    }
     .card_text {
         word-wrap: break-word;
     }

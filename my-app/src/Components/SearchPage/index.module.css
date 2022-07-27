@@ -1,12 +1,13 @@
 .search_container {
     display: grid;
+    margin: 1rem;
 }
 
 .filter_container {
-    max-width: 100%;
+    width: 100%;
     background-color: var(--secondary);
     border-radius: 1rem;
-    margin: 1rem;
+    margin: .05rem 1rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
@@ -31,6 +32,7 @@
 
 .price_filter {
     margin: var(--margin);
+    width: 100%;
 }
 
 .price_container h2 {
@@ -52,12 +54,12 @@
 }
 
 .rooms_container h2 {
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 .rooms_input button {
     margin: .5rem;
-    width: 50px;
+    width: 2.5rem;
     background-color: transparent;
     color: var(--primary);
 }
@@ -261,20 +263,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .filter_innerContainer {
-        width: 20rem;
+    .filter_container {
+        font-size: .75em;
     }
-    .price_container h2 {
+    .filter_header button {
         font-size: 1em;
     }
-    .rooms_container h2 {
-        font-size: 1em;
-    }
-    .ratings_container h2 {
-        font-size: 1em;
-    }
-    .options_container h2 {
-        font-size: 1em;
+    .rooms_input_row {
+        display: flex;
     }
     .product_card {
         max-width: 20rem;
