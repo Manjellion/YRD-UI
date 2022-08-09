@@ -54,6 +54,9 @@ function Login() {
                 </Form>
             </div>
         </div>
+        <div>
+            <Link to='/profilePage'>Preview Profile Page</Link>
+        </div>
         <footer>
             <p>© All rights reserved to Your Royal Docks</p>
         </footer>

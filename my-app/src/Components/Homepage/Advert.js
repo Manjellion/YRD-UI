@@ -51,7 +51,6 @@ function Advert() {
                                 padding: 50
                             }}>
                                 <img src={image} alt='advertisement images' key={index} style={{
-                                    borderRadius: '2rem',
                                     pointerEvents: 'none'
                                 }}/>
                                 

@@ -4,6 +4,6 @@
     --internalBG: #dcdcdc;
     --margin: .5rem;
     --fontSize: 1.1em;
-    --gradientColor: linear-gradient(90deg, rgb(45, 92, 211) 0%, rgb(73, 114, 224) 35%, rgb(23, 189, 189) 100%);
+    --gradientColor: linear-gradient(90deg, rgb(45, 92, 211) 0%, rgb(73, 114, 224) 35%, rgb(20, 165, 165) 100%);
     --boxShadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

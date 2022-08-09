@@ -1,0 +1,219 @@
+.profile_cardContainer {
+    box-shadow: var(--boxShadow);
+    padding: .5rem 1rem;
+    width: 300px;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.profile_cardImg {
+    padding: 1rem 0;
+}
+
+.profile_cardImg img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: var(--boxShadow);
+    border: none;
+    transition: .5s;
+}
+
+.profile_cardImg img:hover {
+    height: 250px;
+    width: 250px;
+    transition: .5s;
+}
+
+.profile_cardHeader {
+    padding: .25rem 0;
+}
+
+.profile_cardHeader h1 {
+    font-weight: 800;
+    font-size: 1.75em;
+}
+
+.profile_cardShare {
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: .25rem;
+}
+
+.profile_cardDesc {
+    text-align: left;
+    padding: 0 1rem;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.profile_cardDesc p {
+    font-size: .9em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 2rem 2rem 0 2rem;
+}
+
+ul li a {
+    font-size: 1.5em;
+    opacity: .75;
+}
+
+ul li a:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+ul li a::after {
+    color: grey;
+}
+
+.profile_cardJoined {
+    opacity: .75;
+}
+
+.profile_filterContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    width: 800px;
+    box-shadow: var(--boxShadow);
+    border-radius: 1rem;
+}
+.profile_filterContainer button {
+    opacity: .75;
+    transition: .5s;
+    background-color: grey;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.1em;
+    padding: .25rem 1rem;
+}
+
+.profile_filterContainer button:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+.collection_collectionsContainer {
+    display: flex;
+    width: 800px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.collection_collection_card {
+    border-radius: 1rem;
+    margin-right: 1rem;
+    box-shadow: var(--boxShadow);
+}
+
+.collection_collection_card img {
+    height: 300px;
+    width: 300px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.profile_MainContainer {
+   display: grid;
+   margin-top: 2.5rem;
+}
+
+.profile_MainButton {
+    width: 20%;
+    margin: auto;
+    border: none;
+    padding: 1rem 1rem;
+    background: var(--gradientColor);
+    color: white;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile_cardContainer {
+        width: 250px;
+    }
+    .profile_cardImg img {
+        width: 150px;
+        height: 150px;
+    }
+    .profile_cardImg img:hover {
+        width: 200px;
+        height: 200px;
+    }
+    .profile_cardHeader h1 {
+        font-size: 1.2em;
+    }
+    .profile_cardHeader p {
+        font-size: .9em;
+    }
+    .profile_cardDesc p {
+        font-size: .8em;
+    }
+    .profile_cardLink p {
+        font-size: .9em;
+    }
+    .profile_cardJoined p {
+        font-size: .8em;
+    }
+    .profile_filterContainer {
+        width: 600px;
+    }
+    .collection_collectionsContainer {
+        width: 600px;
+    }
+    .collection_collection_card img {
+        height: 200px;
+        width: 200px;
+    }
+    .collection_collection_card h3 {
+        font-size: 1em;
+        padding: .5rem;
+    }
+    .profile_MainButton {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile_cardContainer {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .profile_cardContainer {
+        width: 350px;
+        margin: auto;
+    }
+    .profile_filterContainer {
+        width: 400px;
+    }
+    .profile_filterContainer Button {
+        font-size: .9em;
+
+    }
+    .collection_collectionsContainer {
+        width: 400px;
+    }
+    .collection_collection_card img {
+        height: 100px;
+        width: 100px;
+    }
+    .collection_collection_card h3 {
+        font-size: .8em;
+    }
+    .collection_collection_card p {
+        font-size: .8em;
+    }
+    .profile_MainButton {
+        width: 40%;
+    }
+}

@@ -11,7 +11,8 @@ import {
   Events,
   Login, 
   Register, 
-  Product
+  Product,
+  Profile
 } from './Pages/export-index'
 import './App.css'
 import {
@@ -64,6 +65,7 @@ function App() {
             <Route path='/eventsPage' element={<Events />} />
             <Route path='/login' element={<Login /> } />
             <Route path='/register' element={<Register />} />
+            <Route path='/profilePage' element={<Profile />} />
           </Routes>
         </BrowserRouter>
       }

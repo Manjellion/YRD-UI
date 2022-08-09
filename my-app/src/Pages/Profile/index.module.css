@@ -1,0 +1,13 @@
+.profile_components {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .profile_components {
+        display: grid;
+        justify-content: center;
+    }
+}
