@@ -1,8 +1,17 @@
+.profile_container {
+    background-image: url('https://lep.london/sites/default/files/images/content_box/Silvertown%20Quays.jpg');
+    height: 20vh;
+    z-index: -1;
+}
+
+.profile_navbar {
+    color: white;
+}
+
 .profile_components {
-    margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
-    z-index: 1;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 768px) {
