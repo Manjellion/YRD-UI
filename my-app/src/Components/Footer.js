@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { GrMail } from 'react-icons/gr'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -19,11 +20,12 @@ function Footer() {
             </div>
             <div className='nav-List'>
                 <h3 style={{ textAlign: 'center' }}>All Pages</h3>
-                <ul style={{ listStyle: 'none', marginRight: 50 }}>
-                    <li>Home Page</li>
-                    <li>Search</li>
-                    <li>Events</li>
-                    <li>Contact Us</li>
+                <ul style={{ listStyle: 'none', display: 'grid'}}>
+                    <Link to='/' style={{ color: '#000', textDecoration: 'none' }}>Choose another viewer</Link>
+                    <Link to='/searchPage' style={{ color: '#000', textDecoration: 'none' }}>Search</Link>
+                    <Link to='/eventsPage' style={{ color: '#000', textDecoration: 'none' }}>Events</Link>
+                    <Link to='/' style={{ color: '#000', textDecoration: 'none' }}>Contact Us</Link>
+                    <Link to='login' style={{ color: '#000', textDecoration: 'none' }}>Login</Link>
                 </ul>
             </div>
             <div className='newsletter-container' style={{ width: 300 }}>
@@ -39,7 +41,7 @@ function Footer() {
                         marginLeft: 10,
                         color: '#F6BE00'
                     }}/>
-                    <Form.Control type="email" placeholder="     Enter your email address" />
+                    <Form.Control type="email" placeholder="Enter your email address" style={{ paddingLeft: 30 }} />
                     <br />
                     <Button variant="primary">Subscribe</Button>
                 </Form>

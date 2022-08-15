@@ -57,7 +57,7 @@ ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    padding: 2rem 2rem 0 2rem;
+    padding: .5rem 2rem 0 2rem;
 }
 
 ul li a {
@@ -82,8 +82,8 @@ ul li a::after {
     display: flex;
     justify-content: space-evenly;
     padding: 1rem 0;
-    width: 800px;
     box-shadow: var(--boxShadow);
+    background-color: #fff;
     border-radius: 1rem;
 }
 .profile_filterContainer button {
@@ -103,7 +103,6 @@ ul li a::after {
 
 .collection_collectionsContainer {
     display: flex;
-    width: 800px;
     padding: 1rem;
     justify-content: space-evenly;
     text-align: center;
@@ -113,18 +112,30 @@ ul li a::after {
     border-radius: 1rem;
     margin-right: 1rem;
     box-shadow: var(--boxShadow);
+    background-color: #fff;
 }
 
 .collection_collection_card img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 1rem 1rem 0 0;
+}
+
+.collection_collection_card h3 {
+    text-align: left;
+    padding-left: .5rem;
+    font-weight: 700;
+}
+
+.collection_collection_card p {
+    text-align: right;
+    padding-right: .5rem;
+    opacity: .75;
 }
 
 .profile_MainContainer {
    display: grid;
    margin-top: 6rem;
-   background-color: #fff;
 }
 
 .profile_MainButton {
